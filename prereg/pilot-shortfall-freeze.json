@@ -1,0 +1,1542 @@
+{
+  "bindings": [
+    {
+      "bytes": 379984,
+      "label": "prereg_yaml",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\prereg\\prereg.yaml",
+      "sha256": "5015647f919c167eea6874523a20dbc67729bf3ab777c62cc4dd7769ad8e2c1b"
+    },
+    {
+      "bytes": 297202,
+      "label": "prereg_md",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\prereg\\PREREGISTRATION.md",
+      "sha256": "016a2d8c83e7c10231b401af83d0a1495202874be45958dbb4cbb4eee13cab02"
+    },
+    {
+      "bytes": 255404,
+      "label": "prereg_python",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\prereg.py",
+      "sha256": "0f96d3687b8902f4a57773605cbfbd7f4ed8bd0e1dc7b4355777a08404c96d23"
+    },
+    {
+      "bytes": 41560,
+      "label": "run_pilot",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\run_pilot.py",
+      "sha256": "85c1f6f056a787cdbf38d41994872b4260ed096509c980cf5038d1e908e7a7af"
+    },
+    {
+      "bytes": 166241,
+      "label": "modal_stage0",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\modal_stage0.py",
+      "sha256": "c6d701e0092b2e02fa27ff6c7b8b50bcd0b8486b9941c6b7392edc9ad57f7c83"
+    },
+    {
+      "bytes": 40650,
+      "label": "sample_stage0_local",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\sample_stage0_local.py",
+      "sha256": "65b3a0ff44db2edacb73c672529430055eaa3ac56a55975c8bc7d0195c400194"
+    },
+    {
+      "bytes": 3210,
+      "label": "freeze_script",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\freeze_pilot_verifier.py",
+      "sha256": "d538c29bdc7b249cdc06eeb4b29813b5263a433f7864c4e86790fda2d90250d8"
+    },
+    {
+      "bytes": 4158,
+      "label": "count_script",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\count_pilot_verified.py",
+      "sha256": "84aea2fccf0ffe591161016fead0eef6663b4939ca7faf1974bfcb0534683cc8"
+    },
+    {
+      "bytes": 3867,
+      "label": "recover_source_types_script",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\recover_source_types.py",
+      "sha256": "a68f1f1e0bf6bb684fee46499dc940eaf50fc6bb1abde788735edd366d169966"
+    },
+    {
+      "bytes": 4991,
+      "label": "freeze_recount_v3_script",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\freeze_recount_v3.py",
+      "sha256": "bd133dd490774dca0452ef46dc9226248fc37ce086b36e7e4723edb7c5f2b6b1"
+    },
+    {
+      "bytes": 2143,
+      "label": "topup_plan_script",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\plan_pilot_topup.py",
+      "sha256": "3e17ca857083058414b5c22a0a82e94a8dd15b585ee8823d42183ee22146711c"
+    },
+    {
+      "bytes": 5643,
+      "label": "corpus_script",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\build_pilot_corpus.py",
+      "sha256": "452fb481c4c7cf57dcc0c1a1ae146cdbc7fb672c87a147f2cf8343c9498a5f94"
+    },
+    {
+      "bytes": 370935,
+      "label": "shortfall_module",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\shortfall.py",
+      "sha256": "dfff0ce65aa6c94091e413c4380299ed0553b592c541c4e7eb58bade595a24f8"
+    },
+    {
+      "bytes": 27312,
+      "label": "interpretation_module",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\interpretation.py",
+      "sha256": "4ee5f9a90ad2e3023ec739241d8652b3509a8ba7bf81a4e80b1df23ba4d8aeba"
+    },
+    {
+      "bytes": 7231,
+      "label": "source_recovery",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\source_recovery.py",
+      "sha256": "0b0f027d78d75b326db88ebff6a1449032aa4d0431da1dc0528d099dbf8bc34a"
+    },
+    {
+      "bytes": 30229,
+      "label": "sources",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\sources.py",
+      "sha256": "dee86266a21164de293a8f39dfdf2c9dac1eafc68a8efd4db00463a787c25b86"
+    },
+    {
+      "bytes": 72157,
+      "label": "stage0_local",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\local.py",
+      "sha256": "73014241718e8cef3609c62e1576e47a062229dc2911e0593fd0ef2b90fd04ac"
+    },
+    {
+      "bytes": 26104,
+      "label": "modal_lite",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\modal_lite.py",
+      "sha256": "65f1fb22749ed915ffe1c8f5d7608583e8e96878d3ebac99737edc744526c910"
+    },
+    {
+      "bytes": 17802,
+      "label": "postprocess",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\postprocess.py",
+      "sha256": "7e697c3b3d9841d521e94f110ebd57a186a901db9e7ab8a0edacd961865aec34"
+    },
+    {
+      "bytes": 136380,
+      "label": "grader",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\grader.py",
+      "sha256": "79a2865fef1fdbaeeb131dd2ceeffa0805d8ad4d5a7ba0fb02ee0a764e323562"
+    },
+    {
+      "bytes": 15468,
+      "label": "lcb_extraction",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\eval\\benchmarks\\lcb.py",
+      "sha256": "3791a25ab1109635d69191222251ba84172cea5e738411a8cef5005760c577dd"
+    },
+    {
+      "bytes": 8244,
+      "label": "train_labels",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\train\\labels.py",
+      "sha256": "c6ebb503532ff90262f54c45c9393c726f50f031925518ad7a5d089204e0a170"
+    },
+    {
+      "bytes": 9348,
+      "label": "pilot_eval_rows",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\pilot\\eval_rows.py",
+      "sha256": "2adadccfbf11b1b845abfc114d5fe8ca005dbe2ef186183fa6c5e0a855584c93"
+    },
+    {
+      "bytes": 32660,
+      "label": "pilot_harness",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\pilot\\harness.py",
+      "sha256": "62051ed028ec49ab392320d4ff92a63ca009ed55dbb8aa388590bdbba9f3e0ba"
+    },
+    {
+      "bytes": 8795,
+      "label": "pilot_selection",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\pilot\\selection.py",
+      "sha256": "682edc37925b44d188f9b0827560442c2470090729139c5abeb198843e2f63ce"
+    },
+    {
+      "bytes": 19089,
+      "label": "calibrated_nll",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\eval\\calibrated_nll.py",
+      "sha256": "86522a320f44632f580f5307c682200f7000c2c237bdf6c65d7ff710ed5d84a8"
+    },
+    {
+      "bytes": 28545,
+      "label": "pilot_shortfall_amendment",
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\prereg\\pilot-shortfall-amendment.md",
+      "sha256": "19d6daa37b786740022a4687c29f84870cd47111a5e3d94ddf4a7a20912f777f"
+    },
+    {
+      "bytes": 424228,
+      "label": "verifier_freeze",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\verifier_v3r\\verifier_freeze.json",
+      "sha256": "f6a28bb2b2dde28acecb42c3140b000a11180a14731b2c27658c97dd6a9c00a6"
+    },
+    {
+      "bytes": 1839875,
+      "label": "verifier_test_manifest",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\verifier_v3r\\test_manifest.jsonl",
+      "sha256": "3f9d56317ae8a27cab59aca8f6a401fa3254edd56fc44dce13d5a7ac7f5e7e2e"
+    },
+    {
+      "bytes": 5281914,
+      "label": "interpretation_manifest",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\interpretation_v3r\\interpretation_manifest.json",
+      "sha256": "efd193eaa31435ad11efc7fce493b5338912371813331a94e6af8f87ee33f68e"
+    },
+    {
+      "bytes": 2453351,
+      "label": "interpretation_execution_tests",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\interpretation_v3r\\execution_tests.jsonl",
+      "sha256": "58a32fe96058505f154be6ec4221692619f9b44a083bb53742e4380998c426e1"
+    },
+    {
+      "bytes": 12091,
+      "label": "evidence/pool_manifest",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\pool\\manifest.json",
+      "sha256": "3aa6f7084680f5c375909d2d2d8715e30ce76c36b31250dc675fd8d1223b08f6"
+    },
+    {
+      "bytes": 56778276,
+      "label": "evidence/pool_problems",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\pool\\problems.jsonl",
+      "sha256": "58388052a019fe9ecafbb779377ea2350f614ca7e55ed4a7cab70ad9c0bc6248"
+    },
+    {
+      "bytes": 88397,
+      "label": "evidence/request_ids",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\request_ids.txt",
+      "sha256": "1ecd30fb94270903401dcf8d2c0097e0a45f0a65308cdb3e0d95d5c477da0138"
+    },
+    {
+      "bytes": 28107,
+      "label": "evidence/lite_manifest",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\manifest.json",
+      "sha256": "bac2a1b8318e31e555abea8b00874586d1e7c6ac2687ab44b8172fc7f66b53bf"
+    },
+    {
+      "bytes": 1534,
+      "label": "evidence/lite_run_marker",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\run_marker.json",
+      "sha256": "b5b86bf5a6601d6c3fd5a06ec6c7a602fd0d70e5afe993c8d9ef8754fab4dc86"
+    },
+    {
+      "bytes": 11915,
+      "label": "evidence/lite_modal_receipt",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\modal_receipt.json",
+      "sha256": "bf3b750b58906aee2ca6289fdfddc0b75b303170298cb03ca8191d0b593d29c5"
+    },
+    {
+      "bytes": 1443539,
+      "label": "evidence/lite_sample_grades",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\sample_grades.jsonl",
+      "sha256": "3825f83ea821e4191e6f4fd204e3d90b7a80e256aa92a0fe1b96b8c08427b1e1"
+    },
+    {
+      "bytes": 526,
+      "label": "evidence/lite_pilot_manifest",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\pilot\\manifest.json",
+      "sha256": "a8205c606304ca8c14c447e9228c16d7e8a8cd23b17cba34dd2f0923852d0121"
+    },
+    {
+      "bytes": 293661,
+      "label": "evidence/lite_pilot_p1",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\pilot\\pilot_p1.jsonl",
+      "sha256": "2a0d7a8a9f40dfead3f729eaefc4904fcd651b727bf0e24c34865c7c7266132a"
+    },
+    {
+      "bytes": 411576,
+      "label": "evidence/lite_pilot_tfit",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\pilot\\pilot_tfit.jsonl",
+      "sha256": "b6e1766b1e85b7adaa6d0fe240443d70af243c9fd1ac3052f4f058bb7f55250b"
+    },
+    {
+      "bytes": 588030,
+      "label": "evidence/lite_pilot_selection",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\pilot\\pilot_selection.jsonl",
+      "sha256": "180eed52c056a966fa1307f034aefbf92ff55304d58be3ef5778fe5ae11f1a9d"
+    },
+    {
+      "bytes": 148216,
+      "label": "evidence/split_pilot_p1",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\pool\\split_pilot_p1.jsonl",
+      "sha256": "e33d6c386fa409d14deb8fd026441ae0792255a325ab07b7a8c3b0784edd703f"
+    },
+    {
+      "bytes": 1360319,
+      "label": "evidence/split_pilot_tfit",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\pool\\split_pilot_tfit.jsonl",
+      "sha256": "9c346825ed5a15b683e205023afafc00d783d962469f7110585ff74e99515804"
+    },
+    {
+      "bytes": 491983,
+      "label": "evidence/split_pilot_selection",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\pool\\split_pilot_selection.jsonl",
+      "sha256": "7ca7a1f15d2703ebed63759a1f0981791e52896910b953fcae302aafd4b577f5"
+    },
+    {
+      "bytes": 3026516,
+      "label": "evidence/lite_shard/shard_00000.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00000.jsonl",
+      "sha256": "97cc000f92348a587c3c357b411496c5f4d1c4fbfeab347e555fbf972a19740c"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00000.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00000.jsonl.committed",
+      "sha256": "454d1d2d6d4cdd130aae83b38f09923d717f3ccc72d023e046c48a49286dc7f7"
+    },
+    {
+      "bytes": 2417600,
+      "label": "evidence/lite_shard/shard_00001.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00001.jsonl",
+      "sha256": "4e6790b6369d67cece605611ee165539c955a6b8cbddd3954fe04b101449d971"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00001.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00001.jsonl.committed",
+      "sha256": "a8a816b03af63c393c0d336371562e3520c225bf5e1898cb1a40b5238ce79030"
+    },
+    {
+      "bytes": 3040356,
+      "label": "evidence/lite_shard/shard_00002.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00002.jsonl",
+      "sha256": "a5af17466e108be026cad4ed975b3ca505aba1e4bc6e43cb5f1bb14b2833b155"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00002.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00002.jsonl.committed",
+      "sha256": "c3f065a26b0ce1e9d07a58e59fc43d2b6fc17c1eddbdac58dc5a7a8963bd7ec3"
+    },
+    {
+      "bytes": 1929965,
+      "label": "evidence/lite_shard/shard_00003.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00003.jsonl",
+      "sha256": "7dab69e89b47e9a8f82e012c8ddbe638f5669e56324ae8dcee5b95ac89335a6e"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00003.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00003.jsonl.committed",
+      "sha256": "4fe066e6e4e6f0e5c8897a7cfabcc32f0122ba1d6b6baa9c147f25326d686897"
+    },
+    {
+      "bytes": 2277038,
+      "label": "evidence/lite_shard/shard_00004.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00004.jsonl",
+      "sha256": "717290ba77706d9d726c5957122805e00b17b624e3c066e02df915e0a5eddfb2"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00004.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00004.jsonl.committed",
+      "sha256": "995353aa63e22b5fcf1732c516795c680107ccecd6ce9609953e12ed11b2a88a"
+    },
+    {
+      "bytes": 2559810,
+      "label": "evidence/lite_shard/shard_00005.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00005.jsonl",
+      "sha256": "23556ad39c6c149e83d31dfbfd06b55101aff04574e161fffb973019ef9e6724"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00005.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00005.jsonl.committed",
+      "sha256": "a8047abcc9dedd592880231f68e663a669e086f491d9cb1b85966dbfc4e8ec67"
+    },
+    {
+      "bytes": 2859858,
+      "label": "evidence/lite_shard/shard_00006.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00006.jsonl",
+      "sha256": "01fc64b5550aefd24195afe2560858d22de09578428f32410d19517ad6cf7ece"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00006.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00006.jsonl.committed",
+      "sha256": "453523890db5b69a01fc1e9c38cb48168f1d9a2d66700743fdf17b1b7be930d8"
+    },
+    {
+      "bytes": 2818968,
+      "label": "evidence/lite_shard/shard_00007.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00007.jsonl",
+      "sha256": "46bcd40cb3c8cb6dfd02898d8af78c901485de9a341514698beb9394c69873fe"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00007.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00007.jsonl.committed",
+      "sha256": "7e95124772e69a47eab4d184f18c13ff4221a56f241e3b04c497b415479a36f2"
+    },
+    {
+      "bytes": 2284031,
+      "label": "evidence/lite_shard/shard_00008.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00008.jsonl",
+      "sha256": "25a55f844385aa8a48274a2321fe14a44554ca6b179c21ec3919e92f8b1cc0f9"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00008.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00008.jsonl.committed",
+      "sha256": "6939d35118665dace0aa035d76c0f5d8c9fe4f2ec6efbd21d5190c7da3472f21"
+    },
+    {
+      "bytes": 2764696,
+      "label": "evidence/lite_shard/shard_00009.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00009.jsonl",
+      "sha256": "e7bbd1d134e9490d8dd447cf0f08c134abb85e58687b2ab64a38ddaf2faf7964"
+    },
+    {
+      "bytes": 144,
+      "label": "evidence/lite_shard/shard_00009.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00009.jsonl.committed",
+      "sha256": "a2d2685ab480d19ddcfd196d1ddec66e44397a53304f87509ee5cd7c1da90416"
+    },
+    {
+      "bytes": 2852664,
+      "label": "evidence/lite_shard/shard_00010.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00010.jsonl",
+      "sha256": "fcc6946ece88ece1d623270245f4d8ed309a5b585638cd5d64cba89d25ad1029"
+    },
+    {
+      "bytes": 145,
+      "label": "evidence/lite_shard/shard_00010.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00010.jsonl.committed",
+      "sha256": "d6757050cd068da5deb702ff6b973a386fd6f829944b3c9f6b498bcf34424d52"
+    },
+    {
+      "bytes": 2443343,
+      "label": "evidence/lite_shard/shard_00011.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00011.jsonl",
+      "sha256": "14d6070fec72087d4962eb7f6aab446850ccbec339d42e4c2fbbfe50033911ed"
+    },
+    {
+      "bytes": 145,
+      "label": "evidence/lite_shard/shard_00011.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00011.jsonl.committed",
+      "sha256": "d840952dbc7484ef2eca544eff97bb897be34e12feeb126248a38f1699fb060a"
+    },
+    {
+      "bytes": 2699688,
+      "label": "evidence/lite_shard/shard_00012.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00012.jsonl",
+      "sha256": "e58a3406eb56f737ac70f71336ce259c3dbd1963677c814f71588f5735b655e6"
+    },
+    {
+      "bytes": 145,
+      "label": "evidence/lite_shard/shard_00012.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00012.jsonl.committed",
+      "sha256": "cef4b85a90a290d2697f5b9db92382cd536f063fc4ddc30c1b1574825b26db54"
+    },
+    {
+      "bytes": 2500921,
+      "label": "evidence/lite_shard/shard_00013.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00013.jsonl",
+      "sha256": "971dff4d0a293ce259dc027608d0047868010949d9eeb444786e40c777eda15e"
+    },
+    {
+      "bytes": 145,
+      "label": "evidence/lite_shard/shard_00013.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00013.jsonl.committed",
+      "sha256": "2ffdb34fe9d3a539fe83dbb05f7335b4fff00efe2e7edb0e3801985f1ec40132"
+    },
+    {
+      "bytes": 2739486,
+      "label": "evidence/lite_shard/shard_00097.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00097.jsonl",
+      "sha256": "a91e37331fe2afdf13e565e798834774498215025233c05dbed45b60eaaee0cf"
+    },
+    {
+      "bytes": 145,
+      "label": "evidence/lite_shard/shard_00097.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00097.jsonl.committed",
+      "sha256": "0f968f435a7a77896604d0b5902b81e20777e8907f63c14fb0acbb7788740193"
+    },
+    {
+      "bytes": 2576012,
+      "label": "evidence/lite_shard/shard_00098.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00098.jsonl",
+      "sha256": "6c3a4ac48f6cd075a197d1ace76e75519701aaab5b00c89bff3f178369417f95"
+    },
+    {
+      "bytes": 145,
+      "label": "evidence/lite_shard/shard_00098.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00098.jsonl.committed",
+      "sha256": "a29da0d14abd7be82f3a440b97e96adcb33d87ac64e74421fe8ebcac5daa2404"
+    },
+    {
+      "bytes": 591896,
+      "label": "evidence/lite_shard/shard_00099.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00099.jsonl",
+      "sha256": "eb33d5126ff0ccfb361ef83e9320afbd4feac688102e43819ba7208ec6655134"
+    },
+    {
+      "bytes": 145,
+      "label": "evidence/lite_shard/shard_00099.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00099.jsonl.committed",
+      "sha256": "011bd2e337bc9be3df8167f1ad68b67021bf83d1c2125f38ed2a14bb6d82372e"
+    },
+    {
+      "bytes": 602865,
+      "label": "evidence/lite_shard/shard_00100.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00100.jsonl",
+      "sha256": "0f299f4acc96e8887f5bc8d71f5056cdfdeef5fd1612a0d8cdb95defe11978a9"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00100.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00100.jsonl.committed",
+      "sha256": "0068c5c691825de81c31ea5713098437cf5377d7adaca051f322f8c481367f32"
+    },
+    {
+      "bytes": 330822,
+      "label": "evidence/lite_shard/shard_00101.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00101.jsonl",
+      "sha256": "c8cb6375798e9ece8c60d8827240ffad5c902a63a4e63949cb7b63857ca7314c"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00101.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00101.jsonl.committed",
+      "sha256": "c5feeed53eb19ec60fd1e24b3ccf2edf4c8b0f85e873be71aca23dd7601d515b"
+    },
+    {
+      "bytes": 2546685,
+      "label": "evidence/lite_shard/shard_00102.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00102.jsonl",
+      "sha256": "634b5770f70e7d8b0899997a31e85e8bb7dae07e43de6cbfb68afc590177cdb3"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00102.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00102.jsonl.committed",
+      "sha256": "48a120f651d922f069e662ce9fdeba1b710517295ee4abae7b54cc732ae9e877"
+    },
+    {
+      "bytes": 2365713,
+      "label": "evidence/lite_shard/shard_00103.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00103.jsonl",
+      "sha256": "1518541e6f000bf2ac6314b5b55cef8ec5a4c0e7ff00d2bf8705709849c64682"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00103.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00103.jsonl.committed",
+      "sha256": "5d04e4a1938235d5849fe755689496664cf8350b7571f4dae35fe152354472cd"
+    },
+    {
+      "bytes": 2721739,
+      "label": "evidence/lite_shard/shard_00104.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00104.jsonl",
+      "sha256": "efa724d955db69a2c87a1cda649ba49dd3b4045fffb68c254178c6474e62ad59"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00104.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00104.jsonl.committed",
+      "sha256": "a02fa981abbfda0531877769236370d4baa893543185c716b2fbc9af2bc7a424"
+    },
+    {
+      "bytes": 1249146,
+      "label": "evidence/lite_shard/shard_00105.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00105.jsonl",
+      "sha256": "de79ffed695369c312b1ec11a4675e939774e2786f45201aba09e918aaed3ae5"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00105.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00105.jsonl.committed",
+      "sha256": "db6ebdd5e32889a12750237b4f9838f5c3169088206a69ad2884225271e9b6e6"
+    },
+    {
+      "bytes": 2619277,
+      "label": "evidence/lite_shard/shard_00106.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00106.jsonl",
+      "sha256": "d53db0f4dfe84ae813d5293da68a0fb17183ff72896ecad414044e8a70b90ea2"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00106.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00106.jsonl.committed",
+      "sha256": "27b9c22d44beae7f628c0f7b7cad1ad5227aab3c5991d9c33656d32ab8f90e6b"
+    },
+    {
+      "bytes": 2691149,
+      "label": "evidence/lite_shard/shard_00107.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00107.jsonl",
+      "sha256": "fc397910d48e7cd149e96968e057073bcad27e9ee8bfb98427047bd7fa5b5476"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00107.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00107.jsonl.committed",
+      "sha256": "095d14d39f6020b80bf80efd10c744cf4e82aea1ca324e06d21b3702530a20e9"
+    },
+    {
+      "bytes": 2610919,
+      "label": "evidence/lite_shard/shard_00108.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00108.jsonl",
+      "sha256": "007b6a2e11fba15e1b384395682fb727c28c8f4a87b8a27a65dbd818c54260be"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00108.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00108.jsonl.committed",
+      "sha256": "7bc96d3d7f5ef0e86677fee5e3f6079a8c7108b5dc671111fb88979d9d108e83"
+    },
+    {
+      "bytes": 2718578,
+      "label": "evidence/lite_shard/shard_00109.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00109.jsonl",
+      "sha256": "1d194d1de6fc0bd81793fc3f2bae4a969de5d219c07ca28b8a83c3955a80c6a4"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00109.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00109.jsonl.committed",
+      "sha256": "7a146ff84cdeb5ec64f8393a5f130b56e84bff0d89684ccde07f15a2d7d1a681"
+    },
+    {
+      "bytes": 2654021,
+      "label": "evidence/lite_shard/shard_00110.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00110.jsonl",
+      "sha256": "c36fd9a63b9ed573490d646381f3da4882de556e1daeef61726bed06cbbb49d1"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00110.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00110.jsonl.committed",
+      "sha256": "71f2f67552b24fbdbc5ada77bd7a5bee0c823e61095de30d9d8cfddf47258cfc"
+    },
+    {
+      "bytes": 2602909,
+      "label": "evidence/lite_shard/shard_00111.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00111.jsonl",
+      "sha256": "0cfa5faf2106540394ee6e01740a74c7d029325a1eccf106d10be7aaef2a790d"
+    },
+    {
+      "bytes": 146,
+      "label": "evidence/lite_shard/shard_00111.jsonl.committed",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shards\\shard_00111.jsonl.committed",
+      "sha256": "6d10b46c0951fbee4e2f9026b4df6df556c280b9644bbb8b4fae469293ee8cdc"
+    },
+    {
+      "bytes": 23815,
+      "label": "count_summary",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\count_v3r\\summary.json",
+      "sha256": "9148ab9a6f1c5519deb606e3114ab079891ff16c9e801d16456f19c76b42bf0a"
+    },
+    {
+      "bytes": 2586,
+      "label": "count_manifest",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\count_v3r\\count_manifest.json",
+      "sha256": "199083684bc0f9baa25ce29cefbcc27cbccd6ceebc3bb0642279add711e6510f"
+    },
+    {
+      "bytes": 64261180,
+      "label": "count_per_request",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\count_v3r\\per_request.jsonl",
+      "sha256": "8771d0192919d629c73f4c286223ca7c7c13c36c65e1148dd2f6874690d71628"
+    },
+    {
+      "bytes": 259792,
+      "label": "count_log",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\count_v3r\\grade.log",
+      "sha256": "57cb086871c3bbf66585447bad2fe821224b34b620ba5084299ca434a4c7a7f5"
+    },
+    {
+      "bytes": 239229,
+      "label": "topup_plan",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\pilot_topup_plan_v3r.json",
+      "sha256": "7d66858db8613a1eea063e15d1d9266e3ba9ea397a073365e451afb138931973"
+    },
+    {
+      "bytes": 19610,
+      "label": "final_corpus_manifest",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\manifest.json",
+      "sha256": "b663032bab7ec1d9fccb525c1e3f12749e087a46bdf5878671f16409fe972fe6"
+    },
+    {
+      "bytes": 485859,
+      "label": "final_corpus/pilot_p1.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_p1.jsonl",
+      "sha256": "a0ccbed394025c4be9f7e03a5b3eca6f0795a6e64dfc0520626f7d7251b48dc3"
+    },
+    {
+      "bytes": 3383593,
+      "label": "final_corpus/pilot_p1.rendered.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_p1.rendered.jsonl",
+      "sha256": "95d7fcdb9672af9dade3d9590ea270987fe9ffeb29a0c56743d8f848e25076cd"
+    },
+    {
+      "bytes": 1629920,
+      "label": "final_corpus/pilot_selection.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_selection.jsonl",
+      "sha256": "72315be23e148b1b0dba0ea63160c61f73855876d493b987158b0605aed76e1b"
+    },
+    {
+      "bytes": 10836783,
+      "label": "final_corpus/pilot_selection.rendered.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_selection.rendered.jsonl",
+      "sha256": "07db56755ad1beb9e44d83bb900014238ec2368cbabc7bb5bab19aba7e312f7d"
+    },
+    {
+      "bytes": 999553,
+      "label": "final_corpus/pilot_tfit.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_tfit.jsonl",
+      "sha256": "69d64dfdde8397933db0639ff46b98d12996a8aa6e14cf157118f7a5d71969b5"
+    },
+    {
+      "bytes": 7087961,
+      "label": "final_corpus/pilot_tfit.rendered.jsonl",
+      "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_tfit.rendered.jsonl",
+      "sha256": "8f700c66080b13da547c8662c92fad9fa9badb878676c1ea2cc78798e7430631"
+    }
+  ],
+  "count_status": "complete",
+  "created_utc": "2026-11-07T09:10:50.184265+00:00",
+  "decision": {
+    "extension_decision": "no_extension_original_only",
+    "extension_required": false,
+    "nS0": 51,
+    "nT0": 32,
+    "realized_decision": "no_extension_original_only",
+    "topup_request_count": 748,
+    "topup_run_id": "2e51ea95780a383e41ec4876"
+  },
+  "declaration": "No pilot score or trained-arm result informed this amendment or this index. Original-model sampling/verification counts were inspected; access is declared, not denied.",
+  "final_corpus": {
+    "derived": {
+      "pilot_p1": {
+        "assistant_label_positions": 169794,
+        "distinct_problems": 19,
+        "domains": {
+          "code": 11,
+          "math": 27
+        },
+        "problem_ids": [
+          "apps:87acb1e183a2b0f74c3b2008",
+          "apps:a2cc73deb383356e2c51d561",
+          "apps:c32ffef1ae0cabc0576614cb",
+          "codecontests:f71e6ec4aa3971f211982958",
+          "dapo:012578f14dd16fe5cebb1deb",
+          "dapo:78fd8624b14510913e7126d6",
+          "dapo:941759abbb4837eba6ca9e56",
+          "dapo:95f76438a0d6bab8137e3c74",
+          "dapo:aa0e648eaa81b00ebbc96929",
+          "deepscaler:0f9de9b55f036917135b6200",
+          "deepscaler:41d0ad9d1ff7d2d23045b8a4",
+          "deepscaler:5201dcc1a8bc3c9053c009b1",
+          "deepscaler:6b5f79bc135a2406845b86e2",
+          "omr:2eaa3b8688b8f0363c4ffa30",
+          "omr:bd84493cba1595c530081ee4",
+          "omr:c7062b97464e6f5b7b4b0f18",
+          "omr:e7f24b1b7913369d031dfd12",
+          "taco:858eaba952ca1ea42aec7b0c",
+          "taco:f62a9a5422281dd55c5ae143"
+        ],
+        "raw_sha256": "a0ccbed394025c4be9f7e03a5b3eca6f0795a6e64dfc0520626f7d7251b48dc3",
+        "rendered_sha256": "95d7fcdb9672af9dade3d9590ea270987fe9ffeb29a0c56743d8f848e25076cd",
+        "request_ids": [
+          "taco:858eaba952ca1ea42aec7b0c:3",
+          "dapo:95f76438a0d6bab8137e3c74:1",
+          "omr:e7f24b1b7913369d031dfd12:2",
+          "omr:bd84493cba1595c530081ee4:3",
+          "deepscaler:41d0ad9d1ff7d2d23045b8a4:1",
+          "apps:87acb1e183a2b0f74c3b2008:2",
+          "taco:f62a9a5422281dd55c5ae143:3",
+          "omr:2eaa3b8688b8f0363c4ffa30:1",
+          "dapo:012578f14dd16fe5cebb1deb:0",
+          "dapo:aa0e648eaa81b00ebbc96929:2",
+          "deepscaler:6b5f79bc135a2406845b86e2:0",
+          "taco:f62a9a5422281dd55c5ae143:2",
+          "omr:c7062b97464e6f5b7b4b0f18:2",
+          "apps:87acb1e183a2b0f74c3b2008:1",
+          "dapo:78fd8624b14510913e7126d6:3",
+          "codecontests:f71e6ec4aa3971f211982958:3",
+          "deepscaler:5201dcc1a8bc3c9053c009b1:3",
+          "deepscaler:0f9de9b55f036917135b6200:0",
+          "deepscaler:0f9de9b55f036917135b6200:3",
+          "apps:c32ffef1ae0cabc0576614cb:2",
+          "dapo:aa0e648eaa81b00ebbc96929:3",
+          "apps:a2cc73deb383356e2c51d561:3",
+          "dapo:941759abbb4837eba6ca9e56:3",
+          "apps:87acb1e183a2b0f74c3b2008:0",
+          "omr:2eaa3b8688b8f0363c4ffa30:2",
+          "dapo:941759abbb4837eba6ca9e56:0",
+          "dapo:78fd8624b14510913e7126d6:0",
+          "deepscaler:0f9de9b55f036917135b6200:1",
+          "omr:c7062b97464e6f5b7b4b0f18:0",
+          "dapo:aa0e648eaa81b00ebbc96929:1",
+          "deepscaler:0f9de9b55f036917135b6200:2",
+          "omr:c7062b97464e6f5b7b4b0f18:3",
+          "dapo:941759abbb4837eba6ca9e56:1",
+          "dapo:aa0e648eaa81b00ebbc96929:0",
+          "dapo:012578f14dd16fe5cebb1deb:3",
+          "taco:f62a9a5422281dd55c5ae143:1",
+          "omr:c7062b97464e6f5b7b4b0f18:1",
+          "apps:87acb1e183a2b0f74c3b2008:3"
+        ],
+        "rows": 38,
+        "scored_rendered_tokens": 178596
+      },
+      "pilot_selection": {
+        "assistant_label_positions": 538405,
+        "distinct_problems": 51,
+        "domains": {
+          "code": 65,
+          "math": 45
+        },
+        "problem_ids": [
+          "apps:085bcb597bbd610a7f0f9553",
+          "apps:0f0b82fae280ae9fec1905f0",
+          "apps:30e26cef13a6dbbf0e3035f8",
+          "apps:330e14d4ae80612334d94c48",
+          "apps:52f14fc33ef45dd80ac26260",
+          "apps:55c8079ac96c6a4f6a94e346",
+          "apps:5c3e9040008c91509e2d28e5",
+          "apps:63ecbfa3a1ad34a1fdd5e3dd",
+          "apps:9e04a49e5786695116f9af28",
+          "apps:f4466a4b51d21014b34f6218",
+          "apps:f6543e952ecb93fba1fa65c5",
+          "codecontests:00f8d8ef92d7ee54e14f1194",
+          "codecontests:0a3a2469ccb627d7eb508745",
+          "codecontests:421b2e02fa6048d30a8a6a5b",
+          "codecontests:7813a700175b7eab0f381e00",
+          "codecontests:80c4995c60f9081249a8ae29",
+          "codecontests:94a321d10dd961e46863b78b",
+          "codecontests:acd8fb5dc474e19c4ec495fb",
+          "codecontests:ce65687bda5ed65cb690b09e",
+          "codecontests:d7b8df8b3d82fa01f3213a46",
+          "codecontests:e6118193b4a42944762ba646",
+          "codecontests:ed83d3cdc0b173148e2c083d",
+          "codecontests:f61dbe322e0bd5c6c5b01eae",
+          "codecontests:fc7a5d9cbbc52c70206e893f",
+          "dapo:016c91d3b4918e919e1bb332",
+          "dapo:05ea0a2b41416a0a721de752",
+          "dapo:2af81002c41879d3446f9335",
+          "dapo:4b7a5d3ea64ae6b77ddb4ebd",
+          "dapo:991ae838f9d9dbcfbbbcbdb8",
+          "dapo:b48978b942dc505f0e3f9fe0",
+          "dapo:bc800b5594fb738291974047",
+          "dapo:fec9b0da7926ea712b9cd4ef",
+          "deepscaler:2b4f5fbf19b684558d206aca",
+          "deepscaler:676d6376f258ea814bfc060d",
+          "deepscaler:81243b365919df3b708f2cae",
+          "deepscaler:9aef67c7b74840b0fdbaea8d",
+          "deepscaler:a44ed5e0911fce007b80da96",
+          "deepscaler:a53d2c73febc01306764441c",
+          "deepscaler:c7eed770c02c300222306b06",
+          "deepscaler:ef7b5b74e5237ec34b880686",
+          "deepscaler:fbc2d047248a8ea4387ba42e",
+          "omr:094af041f2b3509ec933cc1c",
+          "omr:61993c1c32b2f286f1d074fe",
+          "omr:81306351502101bfcc9c755a",
+          "omr:bb322f30ca0c20df8945dd2e",
+          "omr:ce5dff623fe236213f9863a4",
+          "omr:d0ff28a19adccf366ac05cea",
+          "taco:5bc221f9dec75484cb706b33",
+          "taco:8972e641d24b8080811604e3",
+          "taco:b8ecf092d8c342569710b8c0",
+          "taco:e93c5f5034f89567e88b7c9d"
+        ],
+        "raw_sha256": "72315be23e148b1b0dba0ea63160c61f73855876d493b987158b0605aed76e1b",
+        "rendered_sha256": "07db56755ad1beb9e44d83bb900014238ec2368cbabc7bb5bab19aba7e312f7d",
+        "request_ids": [
+          "dapo:bc800b5594fb738291974047:0",
+          "deepscaler:9aef67c7b74840b0fdbaea8d:1",
+          "apps:52f14fc33ef45dd80ac26260:3",
+          "apps:30e26cef13a6dbbf0e3035f8:0",
+          "codecontests:0a3a2469ccb627d7eb508745:2",
+          "taco:8972e641d24b8080811604e3:3",
+          "deepscaler:81243b365919df3b708f2cae:1",
+          "deepscaler:ef7b5b74e5237ec34b880686:2",
+          "omr:094af041f2b3509ec933cc1c:2",
+          "taco:5bc221f9dec75484cb706b33:3",
+          "codecontests:ed83d3cdc0b173148e2c083d:2",
+          "taco:8972e641d24b8080811604e3:0",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:0",
+          "taco:b8ecf092d8c342569710b8c0:0",
+          "apps:9e04a49e5786695116f9af28:3",
+          "dapo:fec9b0da7926ea712b9cd4ef:1",
+          "taco:5bc221f9dec75484cb706b33:2",
+          "apps:085bcb597bbd610a7f0f9553:0",
+          "codecontests:421b2e02fa6048d30a8a6a5b:3",
+          "apps:0f0b82fae280ae9fec1905f0:0",
+          "dapo:05ea0a2b41416a0a721de752:0",
+          "codecontests:94a321d10dd961e46863b78b:1",
+          "deepscaler:a53d2c73febc01306764441c:3",
+          "dapo:b48978b942dc505f0e3f9fe0:3",
+          "omr:61993c1c32b2f286f1d074fe:0",
+          "codecontests:80c4995c60f9081249a8ae29:0",
+          "codecontests:acd8fb5dc474e19c4ec495fb:2",
+          "taco:5bc221f9dec75484cb706b33:1",
+          "deepscaler:fbc2d047248a8ea4387ba42e:1",
+          "apps:f4466a4b51d21014b34f6218:1",
+          "apps:330e14d4ae80612334d94c48:3",
+          "codecontests:80c4995c60f9081249a8ae29:1",
+          "apps:5c3e9040008c91509e2d28e5:3",
+          "apps:f4466a4b51d21014b34f6218:3",
+          "taco:e93c5f5034f89567e88b7c9d:1",
+          "apps:55c8079ac96c6a4f6a94e346:1",
+          "omr:ce5dff623fe236213f9863a4:0",
+          "omr:61993c1c32b2f286f1d074fe:2",
+          "codecontests:acd8fb5dc474e19c4ec495fb:1",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:2",
+          "taco:b8ecf092d8c342569710b8c0:2",
+          "dapo:fec9b0da7926ea712b9cd4ef:3",
+          "taco:5bc221f9dec75484cb706b33:0",
+          "deepscaler:ef7b5b74e5237ec34b880686:1",
+          "omr:ce5dff623fe236213f9863a4:3",
+          "apps:330e14d4ae80612334d94c48:2",
+          "codecontests:421b2e02fa6048d30a8a6a5b:0",
+          "taco:8972e641d24b8080811604e3:2",
+          "dapo:05ea0a2b41416a0a721de752:2",
+          "deepscaler:c7eed770c02c300222306b06:2",
+          "dapo:016c91d3b4918e919e1bb332:2",
+          "dapo:2af81002c41879d3446f9335:1",
+          "apps:5c3e9040008c91509e2d28e5:2",
+          "codecontests:00f8d8ef92d7ee54e14f1194:2",
+          "omr:bb322f30ca0c20df8945dd2e:2",
+          "dapo:05ea0a2b41416a0a721de752:1",
+          "omr:81306351502101bfcc9c755a:3",
+          "apps:0f0b82fae280ae9fec1905f0:2",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:1",
+          "omr:094af041f2b3509ec933cc1c:0",
+          "deepscaler:676d6376f258ea814bfc060d:3",
+          "deepscaler:676d6376f258ea814bfc060d:1",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:3",
+          "codecontests:acd8fb5dc474e19c4ec495fb:0",
+          "apps:0f0b82fae280ae9fec1905f0:1",
+          "codecontests:421b2e02fa6048d30a8a6a5b:1",
+          "deepscaler:676d6376f258ea814bfc060d:0",
+          "deepscaler:a44ed5e0911fce007b80da96:0",
+          "codecontests:7813a700175b7eab0f381e00:1",
+          "deepscaler:2b4f5fbf19b684558d206aca:0",
+          "apps:f6543e952ecb93fba1fa65c5:2",
+          "omr:bb322f30ca0c20df8945dd2e:0",
+          "deepscaler:ef7b5b74e5237ec34b880686:3",
+          "deepscaler:fbc2d047248a8ea4387ba42e:3",
+          "omr:d0ff28a19adccf366ac05cea:1",
+          "dapo:b48978b942dc505f0e3f9fe0:1",
+          "omr:81306351502101bfcc9c755a:2",
+          "taco:b8ecf092d8c342569710b8c0:1",
+          "deepscaler:81243b365919df3b708f2cae:0",
+          "codecontests:e6118193b4a42944762ba646:2",
+          "codecontests:e6118193b4a42944762ba646:1",
+          "apps:63ecbfa3a1ad34a1fdd5e3dd:3",
+          "codecontests:94a321d10dd961e46863b78b:3",
+          "codecontests:acd8fb5dc474e19c4ec495fb:3",
+          "codecontests:ce65687bda5ed65cb690b09e:0",
+          "codecontests:00f8d8ef92d7ee54e14f1194:3",
+          "codecontests:0a3a2469ccb627d7eb508745:0",
+          "codecontests:7813a700175b7eab0f381e00:0",
+          "omr:094af041f2b3509ec933cc1c:3",
+          "dapo:991ae838f9d9dbcfbbbcbdb8:2",
+          "apps:5c3e9040008c91509e2d28e5:0",
+          "apps:330e14d4ae80612334d94c48:1",
+          "codecontests:fc7a5d9cbbc52c70206e893f:3",
+          "deepscaler:c7eed770c02c300222306b06:0",
+          "taco:b8ecf092d8c342569710b8c0:3",
+          "apps:52f14fc33ef45dd80ac26260:1",
+          "apps:5c3e9040008c91509e2d28e5:1",
+          "codecontests:ce65687bda5ed65cb690b09e:2",
+          "omr:bb322f30ca0c20df8945dd2e:1",
+          "codecontests:94a321d10dd961e46863b78b:2",
+          "codecontests:00f8d8ef92d7ee54e14f1194:0",
+          "apps:0f0b82fae280ae9fec1905f0:3",
+          "dapo:bc800b5594fb738291974047:3",
+          "dapo:991ae838f9d9dbcfbbbcbdb8:0",
+          "taco:e93c5f5034f89567e88b7c9d:2",
+          "deepscaler:a53d2c73febc01306764441c:1",
+          "dapo:4b7a5d3ea64ae6b77ddb4ebd:2",
+          "codecontests:94a321d10dd961e46863b78b:0",
+          "dapo:bc800b5594fb738291974047:1",
+          "codecontests:d7b8df8b3d82fa01f3213a46:2"
+        ],
+        "rows": 110,
+        "scored_rendered_tokens": 578582
+      },
+      "pilot_tfit": {
+        "assistant_label_positions": 352868,
+        "distinct_problems": 32,
+        "domains": {
+          "code": 45,
+          "math": 33
+        },
+        "problem_ids": [
+          "apps:86ab8cbe5869bd1f9c70924e",
+          "apps:b027feeb60b70f0d34ece10a",
+          "apps:c75de23d89df36ba92128761",
+          "apps:d4b9aead1dd10a596542d1d8",
+          "apps:ed0b853bd9c28435b6aa98fb",
+          "codecontests:1e58e2bc2ec51b0d4656e022",
+          "codecontests:61ab8d122441462970c8891d",
+          "codecontests:9fecc4d322f57138988304ea",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe",
+          "codecontests:b26a10ab2588eba5b88a76ca",
+          "codecontests:b6fda506d037ab36352fcbe3",
+          "dapo:0c259691854ff9400bbdc936",
+          "dapo:2f6dcba75ec35b91c9780d53",
+          "dapo:4689ee97b3d172ab475fbfcd",
+          "dapo:5688d14745ace112d6f80e5d",
+          "dapo:61b1337546f08673d712605c",
+          "dapo:89edb128ce61e590bb9b59ea",
+          "deepscaler:0a805c17600dfa9235e17cbe",
+          "deepscaler:11ac1ea63465235750f2f836",
+          "deepscaler:1f3549aabb52d2bc219c48f7",
+          "deepscaler:35460ad211b0babf24336dfb",
+          "deepscaler:38b672cf7c7d8022a78e2eab",
+          "deepscaler:cbc2a3e7fc51bd6ecdd0a7c8",
+          "omr:c9105aa7336a9e54d715219c",
+          "omr:d0fd14c355d82a18733450b6",
+          "omr:f55cbc38413c783fa47e39f7",
+          "omr:f6b10e2c4b47da5571126274",
+          "taco:2076fc0e338ae3372d95be3d",
+          "taco:4784fe24d18d6476158e6804",
+          "taco:5a7981a31407e95ac1743f6b",
+          "taco:67d7d0cf6c18ae7fcc65b32c",
+          "taco:cc419ac77f735fae72998680"
+        ],
+        "raw_sha256": "69d64dfdde8397933db0639ff46b98d12996a8aa6e14cf157118f7a5d71969b5",
+        "rendered_sha256": "8f700c66080b13da547c8662c92fad9fa9badb878676c1ea2cc78798e7430631",
+        "request_ids": [
+          "taco:67d7d0cf6c18ae7fcc65b32c:0",
+          "codecontests:b6fda506d037ab36352fcbe3:3",
+          "deepscaler:38b672cf7c7d8022a78e2eab:3",
+          "codecontests:b26a10ab2588eba5b88a76ca:3",
+          "deepscaler:35460ad211b0babf24336dfb:3",
+          "deepscaler:1f3549aabb52d2bc219c48f7:2",
+          "deepscaler:cbc2a3e7fc51bd6ecdd0a7c8:1",
+          "apps:b027feeb60b70f0d34ece10a:0",
+          "apps:86ab8cbe5869bd1f9c70924e:2",
+          "dapo:2f6dcba75ec35b91c9780d53:0",
+          "dapo:0c259691854ff9400bbdc936:0",
+          "dapo:2f6dcba75ec35b91c9780d53:3",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:0",
+          "apps:86ab8cbe5869bd1f9c70924e:0",
+          "taco:cc419ac77f735fae72998680:3",
+          "dapo:5688d14745ace112d6f80e5d:3",
+          "dapo:89edb128ce61e590bb9b59ea:2",
+          "omr:f55cbc38413c783fa47e39f7:0",
+          "taco:5a7981a31407e95ac1743f6b:2",
+          "dapo:5688d14745ace112d6f80e5d:0",
+          "dapo:89edb128ce61e590bb9b59ea:1",
+          "omr:c9105aa7336a9e54d715219c:2",
+          "deepscaler:11ac1ea63465235750f2f836:0",
+          "apps:d4b9aead1dd10a596542d1d8:0",
+          "taco:67d7d0cf6c18ae7fcc65b32c:2",
+          "taco:5a7981a31407e95ac1743f6b:0",
+          "taco:cc419ac77f735fae72998680:2",
+          "dapo:89edb128ce61e590bb9b59ea:3",
+          "taco:2076fc0e338ae3372d95be3d:0",
+          "dapo:89edb128ce61e590bb9b59ea:0",
+          "omr:f55cbc38413c783fa47e39f7:1",
+          "dapo:2f6dcba75ec35b91c9780d53:2",
+          "codecontests:1e58e2bc2ec51b0d4656e022:2",
+          "codecontests:9fecc4d322f57138988304ea:2",
+          "taco:67d7d0cf6c18ae7fcc65b32c:1",
+          "apps:c75de23d89df36ba92128761:1",
+          "taco:4784fe24d18d6476158e6804:3",
+          "taco:4784fe24d18d6476158e6804:0",
+          "codecontests:1e58e2bc2ec51b0d4656e022:0",
+          "dapo:4689ee97b3d172ab475fbfcd:3",
+          "apps:ed0b853bd9c28435b6aa98fb:1",
+          "dapo:61b1337546f08673d712605c:0",
+          "apps:d4b9aead1dd10a596542d1d8:3",
+          "omr:c9105aa7336a9e54d715219c:3",
+          "deepscaler:0a805c17600dfa9235e17cbe:1",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:1",
+          "dapo:0c259691854ff9400bbdc936:3",
+          "apps:d4b9aead1dd10a596542d1d8:1",
+          "deepscaler:0a805c17600dfa9235e17cbe:3",
+          "codecontests:b26a10ab2588eba5b88a76ca:0",
+          "apps:ed0b853bd9c28435b6aa98fb:2",
+          "deepscaler:38b672cf7c7d8022a78e2eab:1",
+          "codecontests:1e58e2bc2ec51b0d4656e022:3",
+          "taco:5a7981a31407e95ac1743f6b:1",
+          "taco:cc419ac77f735fae72998680:1",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:2",
+          "taco:4784fe24d18d6476158e6804:1",
+          "dapo:0c259691854ff9400bbdc936:1",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:3",
+          "omr:d0fd14c355d82a18733450b6:2",
+          "apps:86ab8cbe5869bd1f9c70924e:1",
+          "codecontests:1e58e2bc2ec51b0d4656e022:1",
+          "omr:f55cbc38413c783fa47e39f7:3",
+          "omr:f6b10e2c4b47da5571126274:3",
+          "codecontests:61ab8d122441462970c8891d:1",
+          "omr:f55cbc38413c783fa47e39f7:2",
+          "codecontests:b26a10ab2588eba5b88a76ca:1",
+          "codecontests:9fecc4d322f57138988304ea:1",
+          "deepscaler:11ac1ea63465235750f2f836:2",
+          "codecontests:b6fda506d037ab36352fcbe3:2",
+          "codecontests:b26a10ab2588eba5b88a76ca:2",
+          "deepscaler:11ac1ea63465235750f2f836:1",
+          "apps:ed0b853bd9c28435b6aa98fb:0",
+          "apps:86ab8cbe5869bd1f9c70924e:3",
+          "codecontests:b6fda506d037ab36352fcbe3:0",
+          "deepscaler:38b672cf7c7d8022a78e2eab:2",
+          "taco:5a7981a31407e95ac1743f6b:3",
+          "taco:cc419ac77f735fae72998680:0"
+        ],
+        "rows": 78,
+        "scored_rendered_tokens": 375644
+      }
+    },
+    "manifest": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\manifest.json",
+    "manifest_sha256": "b663032bab7ec1d9fccb525c1e3f12749e087a46bdf5878671f16409fe972fe6",
+    "splits": {
+      "pilot_p1": {
+        "distinct_problems": 19,
+        "domains": {
+          "code": 11,
+          "math": 27
+        },
+        "kind": "pilot_shortfall_final_split",
+        "order_rule": "ascending sha256(UTF8('0:'+request_id)); ties by request_id",
+        "problem_ids": [
+          "apps:87acb1e183a2b0f74c3b2008",
+          "apps:a2cc73deb383356e2c51d561",
+          "apps:c32ffef1ae0cabc0576614cb",
+          "codecontests:f71e6ec4aa3971f211982958",
+          "dapo:012578f14dd16fe5cebb1deb",
+          "dapo:78fd8624b14510913e7126d6",
+          "dapo:941759abbb4837eba6ca9e56",
+          "dapo:95f76438a0d6bab8137e3c74",
+          "dapo:aa0e648eaa81b00ebbc96929",
+          "deepscaler:0f9de9b55f036917135b6200",
+          "deepscaler:41d0ad9d1ff7d2d23045b8a4",
+          "deepscaler:5201dcc1a8bc3c9053c009b1",
+          "deepscaler:6b5f79bc135a2406845b86e2",
+          "omr:2eaa3b8688b8f0363c4ffa30",
+          "omr:bd84493cba1595c530081ee4",
+          "omr:c7062b97464e6f5b7b4b0f18",
+          "omr:e7f24b1b7913369d031dfd12",
+          "taco:858eaba952ca1ea42aec7b0c",
+          "taco:f62a9a5422281dd55c5ae143"
+        ],
+        "rendered": {
+          "assistant_label_positions": 169794,
+          "file": "pilot_p1.rendered.jsonl",
+          "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_p1.rendered.jsonl",
+          "rows": 38,
+          "sha256": "95d7fcdb9672af9dade3d9590ea270987fe9ffeb29a0c56743d8f848e25076cd"
+        },
+        "request_ids": [
+          "taco:858eaba952ca1ea42aec7b0c:3",
+          "dapo:95f76438a0d6bab8137e3c74:1",
+          "omr:e7f24b1b7913369d031dfd12:2",
+          "omr:bd84493cba1595c530081ee4:3",
+          "deepscaler:41d0ad9d1ff7d2d23045b8a4:1",
+          "apps:87acb1e183a2b0f74c3b2008:2",
+          "taco:f62a9a5422281dd55c5ae143:3",
+          "omr:2eaa3b8688b8f0363c4ffa30:1",
+          "dapo:012578f14dd16fe5cebb1deb:0",
+          "dapo:aa0e648eaa81b00ebbc96929:2",
+          "deepscaler:6b5f79bc135a2406845b86e2:0",
+          "taco:f62a9a5422281dd55c5ae143:2",
+          "omr:c7062b97464e6f5b7b4b0f18:2",
+          "apps:87acb1e183a2b0f74c3b2008:1",
+          "dapo:78fd8624b14510913e7126d6:3",
+          "codecontests:f71e6ec4aa3971f211982958:3",
+          "deepscaler:5201dcc1a8bc3c9053c009b1:3",
+          "deepscaler:0f9de9b55f036917135b6200:0",
+          "deepscaler:0f9de9b55f036917135b6200:3",
+          "apps:c32ffef1ae0cabc0576614cb:2",
+          "dapo:aa0e648eaa81b00ebbc96929:3",
+          "apps:a2cc73deb383356e2c51d561:3",
+          "dapo:941759abbb4837eba6ca9e56:3",
+          "apps:87acb1e183a2b0f74c3b2008:0",
+          "omr:2eaa3b8688b8f0363c4ffa30:2",
+          "dapo:941759abbb4837eba6ca9e56:0",
+          "dapo:78fd8624b14510913e7126d6:0",
+          "deepscaler:0f9de9b55f036917135b6200:1",
+          "omr:c7062b97464e6f5b7b4b0f18:0",
+          "dapo:aa0e648eaa81b00ebbc96929:1",
+          "deepscaler:0f9de9b55f036917135b6200:2",
+          "omr:c7062b97464e6f5b7b4b0f18:3",
+          "dapo:941759abbb4837eba6ca9e56:1",
+          "dapo:aa0e648eaa81b00ebbc96929:0",
+          "dapo:012578f14dd16fe5cebb1deb:3",
+          "taco:f62a9a5422281dd55c5ae143:1",
+          "omr:c7062b97464e6f5b7b4b0f18:1",
+          "apps:87acb1e183a2b0f74c3b2008:3"
+        ],
+        "rows": 38,
+        "scored_rendered_tokens": 178596,
+        "sha256": "a0ccbed394025c4be9f7e03a5b3eca6f0795a6e64dfc0520626f7d7251b48dc3",
+        "split": "pilot_p1"
+      },
+      "pilot_selection": {
+        "distinct_problems": 51,
+        "domains": {
+          "code": 65,
+          "math": 45
+        },
+        "kind": "pilot_shortfall_final_split",
+        "order_rule": "ascending sha256(UTF8('0:'+request_id)); ties by request_id",
+        "problem_ids": [
+          "apps:085bcb597bbd610a7f0f9553",
+          "apps:0f0b82fae280ae9fec1905f0",
+          "apps:30e26cef13a6dbbf0e3035f8",
+          "apps:330e14d4ae80612334d94c48",
+          "apps:52f14fc33ef45dd80ac26260",
+          "apps:55c8079ac96c6a4f6a94e346",
+          "apps:5c3e9040008c91509e2d28e5",
+          "apps:63ecbfa3a1ad34a1fdd5e3dd",
+          "apps:9e04a49e5786695116f9af28",
+          "apps:f4466a4b51d21014b34f6218",
+          "apps:f6543e952ecb93fba1fa65c5",
+          "codecontests:00f8d8ef92d7ee54e14f1194",
+          "codecontests:0a3a2469ccb627d7eb508745",
+          "codecontests:421b2e02fa6048d30a8a6a5b",
+          "codecontests:7813a700175b7eab0f381e00",
+          "codecontests:80c4995c60f9081249a8ae29",
+          "codecontests:94a321d10dd961e46863b78b",
+          "codecontests:acd8fb5dc474e19c4ec495fb",
+          "codecontests:ce65687bda5ed65cb690b09e",
+          "codecontests:d7b8df8b3d82fa01f3213a46",
+          "codecontests:e6118193b4a42944762ba646",
+          "codecontests:ed83d3cdc0b173148e2c083d",
+          "codecontests:f61dbe322e0bd5c6c5b01eae",
+          "codecontests:fc7a5d9cbbc52c70206e893f",
+          "dapo:016c91d3b4918e919e1bb332",
+          "dapo:05ea0a2b41416a0a721de752",
+          "dapo:2af81002c41879d3446f9335",
+          "dapo:4b7a5d3ea64ae6b77ddb4ebd",
+          "dapo:991ae838f9d9dbcfbbbcbdb8",
+          "dapo:b48978b942dc505f0e3f9fe0",
+          "dapo:bc800b5594fb738291974047",
+          "dapo:fec9b0da7926ea712b9cd4ef",
+          "deepscaler:2b4f5fbf19b684558d206aca",
+          "deepscaler:676d6376f258ea814bfc060d",
+          "deepscaler:81243b365919df3b708f2cae",
+          "deepscaler:9aef67c7b74840b0fdbaea8d",
+          "deepscaler:a44ed5e0911fce007b80da96",
+          "deepscaler:a53d2c73febc01306764441c",
+          "deepscaler:c7eed770c02c300222306b06",
+          "deepscaler:ef7b5b74e5237ec34b880686",
+          "deepscaler:fbc2d047248a8ea4387ba42e",
+          "omr:094af041f2b3509ec933cc1c",
+          "omr:61993c1c32b2f286f1d074fe",
+          "omr:81306351502101bfcc9c755a",
+          "omr:bb322f30ca0c20df8945dd2e",
+          "omr:ce5dff623fe236213f9863a4",
+          "omr:d0ff28a19adccf366ac05cea",
+          "taco:5bc221f9dec75484cb706b33",
+          "taco:8972e641d24b8080811604e3",
+          "taco:b8ecf092d8c342569710b8c0",
+          "taco:e93c5f5034f89567e88b7c9d"
+        ],
+        "rendered": {
+          "assistant_label_positions": 538405,
+          "file": "pilot_selection.rendered.jsonl",
+          "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_selection.rendered.jsonl",
+          "rows": 110,
+          "sha256": "07db56755ad1beb9e44d83bb900014238ec2368cbabc7bb5bab19aba7e312f7d"
+        },
+        "request_ids": [
+          "dapo:bc800b5594fb738291974047:0",
+          "deepscaler:9aef67c7b74840b0fdbaea8d:1",
+          "apps:52f14fc33ef45dd80ac26260:3",
+          "apps:30e26cef13a6dbbf0e3035f8:0",
+          "codecontests:0a3a2469ccb627d7eb508745:2",
+          "taco:8972e641d24b8080811604e3:3",
+          "deepscaler:81243b365919df3b708f2cae:1",
+          "deepscaler:ef7b5b74e5237ec34b880686:2",
+          "omr:094af041f2b3509ec933cc1c:2",
+          "taco:5bc221f9dec75484cb706b33:3",
+          "codecontests:ed83d3cdc0b173148e2c083d:2",
+          "taco:8972e641d24b8080811604e3:0",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:0",
+          "taco:b8ecf092d8c342569710b8c0:0",
+          "apps:9e04a49e5786695116f9af28:3",
+          "dapo:fec9b0da7926ea712b9cd4ef:1",
+          "taco:5bc221f9dec75484cb706b33:2",
+          "apps:085bcb597bbd610a7f0f9553:0",
+          "codecontests:421b2e02fa6048d30a8a6a5b:3",
+          "apps:0f0b82fae280ae9fec1905f0:0",
+          "dapo:05ea0a2b41416a0a721de752:0",
+          "codecontests:94a321d10dd961e46863b78b:1",
+          "deepscaler:a53d2c73febc01306764441c:3",
+          "dapo:b48978b942dc505f0e3f9fe0:3",
+          "omr:61993c1c32b2f286f1d074fe:0",
+          "codecontests:80c4995c60f9081249a8ae29:0",
+          "codecontests:acd8fb5dc474e19c4ec495fb:2",
+          "taco:5bc221f9dec75484cb706b33:1",
+          "deepscaler:fbc2d047248a8ea4387ba42e:1",
+          "apps:f4466a4b51d21014b34f6218:1",
+          "apps:330e14d4ae80612334d94c48:3",
+          "codecontests:80c4995c60f9081249a8ae29:1",
+          "apps:5c3e9040008c91509e2d28e5:3",
+          "apps:f4466a4b51d21014b34f6218:3",
+          "taco:e93c5f5034f89567e88b7c9d:1",
+          "apps:55c8079ac96c6a4f6a94e346:1",
+          "omr:ce5dff623fe236213f9863a4:0",
+          "omr:61993c1c32b2f286f1d074fe:2",
+          "codecontests:acd8fb5dc474e19c4ec495fb:1",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:2",
+          "taco:b8ecf092d8c342569710b8c0:2",
+          "dapo:fec9b0da7926ea712b9cd4ef:3",
+          "taco:5bc221f9dec75484cb706b33:0",
+          "deepscaler:ef7b5b74e5237ec34b880686:1",
+          "omr:ce5dff623fe236213f9863a4:3",
+          "apps:330e14d4ae80612334d94c48:2",
+          "codecontests:421b2e02fa6048d30a8a6a5b:0",
+          "taco:8972e641d24b8080811604e3:2",
+          "dapo:05ea0a2b41416a0a721de752:2",
+          "deepscaler:c7eed770c02c300222306b06:2",
+          "dapo:016c91d3b4918e919e1bb332:2",
+          "dapo:2af81002c41879d3446f9335:1",
+          "apps:5c3e9040008c91509e2d28e5:2",
+          "codecontests:00f8d8ef92d7ee54e14f1194:2",
+          "omr:bb322f30ca0c20df8945dd2e:2",
+          "dapo:05ea0a2b41416a0a721de752:1",
+          "omr:81306351502101bfcc9c755a:3",
+          "apps:0f0b82fae280ae9fec1905f0:2",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:1",
+          "omr:094af041f2b3509ec933cc1c:0",
+          "deepscaler:676d6376f258ea814bfc060d:3",
+          "deepscaler:676d6376f258ea814bfc060d:1",
+          "codecontests:f61dbe322e0bd5c6c5b01eae:3",
+          "codecontests:acd8fb5dc474e19c4ec495fb:0",
+          "apps:0f0b82fae280ae9fec1905f0:1",
+          "codecontests:421b2e02fa6048d30a8a6a5b:1",
+          "deepscaler:676d6376f258ea814bfc060d:0",
+          "deepscaler:a44ed5e0911fce007b80da96:0",
+          "codecontests:7813a700175b7eab0f381e00:1",
+          "deepscaler:2b4f5fbf19b684558d206aca:0",
+          "apps:f6543e952ecb93fba1fa65c5:2",
+          "omr:bb322f30ca0c20df8945dd2e:0",
+          "deepscaler:ef7b5b74e5237ec34b880686:3",
+          "deepscaler:fbc2d047248a8ea4387ba42e:3",
+          "omr:d0ff28a19adccf366ac05cea:1",
+          "dapo:b48978b942dc505f0e3f9fe0:1",
+          "omr:81306351502101bfcc9c755a:2",
+          "taco:b8ecf092d8c342569710b8c0:1",
+          "deepscaler:81243b365919df3b708f2cae:0",
+          "codecontests:e6118193b4a42944762ba646:2",
+          "codecontests:e6118193b4a42944762ba646:1",
+          "apps:63ecbfa3a1ad34a1fdd5e3dd:3",
+          "codecontests:94a321d10dd961e46863b78b:3",
+          "codecontests:acd8fb5dc474e19c4ec495fb:3",
+          "codecontests:ce65687bda5ed65cb690b09e:0",
+          "codecontests:00f8d8ef92d7ee54e14f1194:3",
+          "codecontests:0a3a2469ccb627d7eb508745:0",
+          "codecontests:7813a700175b7eab0f381e00:0",
+          "omr:094af041f2b3509ec933cc1c:3",
+          "dapo:991ae838f9d9dbcfbbbcbdb8:2",
+          "apps:5c3e9040008c91509e2d28e5:0",
+          "apps:330e14d4ae80612334d94c48:1",
+          "codecontests:fc7a5d9cbbc52c70206e893f:3",
+          "deepscaler:c7eed770c02c300222306b06:0",
+          "taco:b8ecf092d8c342569710b8c0:3",
+          "apps:52f14fc33ef45dd80ac26260:1",
+          "apps:5c3e9040008c91509e2d28e5:1",
+          "codecontests:ce65687bda5ed65cb690b09e:2",
+          "omr:bb322f30ca0c20df8945dd2e:1",
+          "codecontests:94a321d10dd961e46863b78b:2",
+          "codecontests:00f8d8ef92d7ee54e14f1194:0",
+          "apps:0f0b82fae280ae9fec1905f0:3",
+          "dapo:bc800b5594fb738291974047:3",
+          "dapo:991ae838f9d9dbcfbbbcbdb8:0",
+          "taco:e93c5f5034f89567e88b7c9d:2",
+          "deepscaler:a53d2c73febc01306764441c:1",
+          "dapo:4b7a5d3ea64ae6b77ddb4ebd:2",
+          "codecontests:94a321d10dd961e46863b78b:0",
+          "dapo:bc800b5594fb738291974047:1",
+          "codecontests:d7b8df8b3d82fa01f3213a46:2"
+        ],
+        "rows": 110,
+        "scored_rendered_tokens": 578582,
+        "sha256": "72315be23e148b1b0dba0ea63160c61f73855876d493b987158b0605aed76e1b",
+        "split": "pilot_selection"
+      },
+      "pilot_tfit": {
+        "distinct_problems": 32,
+        "domains": {
+          "code": 45,
+          "math": 33
+        },
+        "kind": "pilot_shortfall_final_split",
+        "order_rule": "ascending sha256(UTF8('0:'+request_id)); ties by request_id",
+        "problem_ids": [
+          "apps:86ab8cbe5869bd1f9c70924e",
+          "apps:b027feeb60b70f0d34ece10a",
+          "apps:c75de23d89df36ba92128761",
+          "apps:d4b9aead1dd10a596542d1d8",
+          "apps:ed0b853bd9c28435b6aa98fb",
+          "codecontests:1e58e2bc2ec51b0d4656e022",
+          "codecontests:61ab8d122441462970c8891d",
+          "codecontests:9fecc4d322f57138988304ea",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe",
+          "codecontests:b26a10ab2588eba5b88a76ca",
+          "codecontests:b6fda506d037ab36352fcbe3",
+          "dapo:0c259691854ff9400bbdc936",
+          "dapo:2f6dcba75ec35b91c9780d53",
+          "dapo:4689ee97b3d172ab475fbfcd",
+          "dapo:5688d14745ace112d6f80e5d",
+          "dapo:61b1337546f08673d712605c",
+          "dapo:89edb128ce61e590bb9b59ea",
+          "deepscaler:0a805c17600dfa9235e17cbe",
+          "deepscaler:11ac1ea63465235750f2f836",
+          "deepscaler:1f3549aabb52d2bc219c48f7",
+          "deepscaler:35460ad211b0babf24336dfb",
+          "deepscaler:38b672cf7c7d8022a78e2eab",
+          "deepscaler:cbc2a3e7fc51bd6ecdd0a7c8",
+          "omr:c9105aa7336a9e54d715219c",
+          "omr:d0fd14c355d82a18733450b6",
+          "omr:f55cbc38413c783fa47e39f7",
+          "omr:f6b10e2c4b47da5571126274",
+          "taco:2076fc0e338ae3372d95be3d",
+          "taco:4784fe24d18d6476158e6804",
+          "taco:5a7981a31407e95ac1743f6b",
+          "taco:67d7d0cf6c18ae7fcc65b32c",
+          "taco:cc419ac77f735fae72998680"
+        ],
+        "rendered": {
+          "assistant_label_positions": 352868,
+          "file": "pilot_tfit.rendered.jsonl",
+          "path": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\final_corpus\\pilot_tfit.rendered.jsonl",
+          "rows": 78,
+          "sha256": "8f700c66080b13da547c8662c92fad9fa9badb878676c1ea2cc78798e7430631"
+        },
+        "request_ids": [
+          "taco:67d7d0cf6c18ae7fcc65b32c:0",
+          "codecontests:b6fda506d037ab36352fcbe3:3",
+          "deepscaler:38b672cf7c7d8022a78e2eab:3",
+          "codecontests:b26a10ab2588eba5b88a76ca:3",
+          "deepscaler:35460ad211b0babf24336dfb:3",
+          "deepscaler:1f3549aabb52d2bc219c48f7:2",
+          "deepscaler:cbc2a3e7fc51bd6ecdd0a7c8:1",
+          "apps:b027feeb60b70f0d34ece10a:0",
+          "apps:86ab8cbe5869bd1f9c70924e:2",
+          "dapo:2f6dcba75ec35b91c9780d53:0",
+          "dapo:0c259691854ff9400bbdc936:0",
+          "dapo:2f6dcba75ec35b91c9780d53:3",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:0",
+          "apps:86ab8cbe5869bd1f9c70924e:0",
+          "taco:cc419ac77f735fae72998680:3",
+          "dapo:5688d14745ace112d6f80e5d:3",
+          "dapo:89edb128ce61e590bb9b59ea:2",
+          "omr:f55cbc38413c783fa47e39f7:0",
+          "taco:5a7981a31407e95ac1743f6b:2",
+          "dapo:5688d14745ace112d6f80e5d:0",
+          "dapo:89edb128ce61e590bb9b59ea:1",
+          "omr:c9105aa7336a9e54d715219c:2",
+          "deepscaler:11ac1ea63465235750f2f836:0",
+          "apps:d4b9aead1dd10a596542d1d8:0",
+          "taco:67d7d0cf6c18ae7fcc65b32c:2",
+          "taco:5a7981a31407e95ac1743f6b:0",
+          "taco:cc419ac77f735fae72998680:2",
+          "dapo:89edb128ce61e590bb9b59ea:3",
+          "taco:2076fc0e338ae3372d95be3d:0",
+          "dapo:89edb128ce61e590bb9b59ea:0",
+          "omr:f55cbc38413c783fa47e39f7:1",
+          "dapo:2f6dcba75ec35b91c9780d53:2",
+          "codecontests:1e58e2bc2ec51b0d4656e022:2",
+          "codecontests:9fecc4d322f57138988304ea:2",
+          "taco:67d7d0cf6c18ae7fcc65b32c:1",
+          "apps:c75de23d89df36ba92128761:1",
+          "taco:4784fe24d18d6476158e6804:3",
+          "taco:4784fe24d18d6476158e6804:0",
+          "codecontests:1e58e2bc2ec51b0d4656e022:0",
+          "dapo:4689ee97b3d172ab475fbfcd:3",
+          "apps:ed0b853bd9c28435b6aa98fb:1",
+          "dapo:61b1337546f08673d712605c:0",
+          "apps:d4b9aead1dd10a596542d1d8:3",
+          "omr:c9105aa7336a9e54d715219c:3",
+          "deepscaler:0a805c17600dfa9235e17cbe:1",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:1",
+          "dapo:0c259691854ff9400bbdc936:3",
+          "apps:d4b9aead1dd10a596542d1d8:1",
+          "deepscaler:0a805c17600dfa9235e17cbe:3",
+          "codecontests:b26a10ab2588eba5b88a76ca:0",
+          "apps:ed0b853bd9c28435b6aa98fb:2",
+          "deepscaler:38b672cf7c7d8022a78e2eab:1",
+          "codecontests:1e58e2bc2ec51b0d4656e022:3",
+          "taco:5a7981a31407e95ac1743f6b:1",
+          "taco:cc419ac77f735fae72998680:1",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:2",
+          "taco:4784fe24d18d6476158e6804:1",
+          "dapo:0c259691854ff9400bbdc936:1",
+          "codecontests:ab323e8d4f8c5d1c7d333fbe:3",
+          "omr:d0fd14c355d82a18733450b6:2",
+          "apps:86ab8cbe5869bd1f9c70924e:1",
+          "codecontests:1e58e2bc2ec51b0d4656e022:1",
+          "omr:f55cbc38413c783fa47e39f7:3",
+          "omr:f6b10e2c4b47da5571126274:3",
+          "codecontests:61ab8d122441462970c8891d:1",
+          "omr:f55cbc38413c783fa47e39f7:2",
+          "codecontests:b26a10ab2588eba5b88a76ca:1",
+          "codecontests:9fecc4d322f57138988304ea:1",
+          "deepscaler:11ac1ea63465235750f2f836:2",
+          "codecontests:b6fda506d037ab36352fcbe3:2",
+          "codecontests:b26a10ab2588eba5b88a76ca:2",
+          "deepscaler:11ac1ea63465235750f2f836:1",
+          "apps:ed0b853bd9c28435b6aa98fb:0",
+          "apps:86ab8cbe5869bd1f9c70924e:3",
+          "codecontests:b6fda506d037ab36352fcbe3:0",
+          "deepscaler:38b672cf7c7d8022a78e2eab:2",
+          "taco:5a7981a31407e95ac1743f6b:3",
+          "taco:cc419ac77f735fae72998680:0"
+        ],
+        "rows": 78,
+        "scored_rendered_tokens": 375644,
+        "sha256": "69d64dfdde8397933db0639ff46b98d12996a8aa6e14cf157118f7a5d71969b5",
+        "split": "pilot_tfit"
+      }
+    }
+  },
+  "final_counts": {
+    "pilot_p1": 19,
+    "pilot_selection": 51,
+    "pilot_tfit": 32
+  },
+  "git_commit": "e597b66704a6f0583ee8db50f0200bf44e0ee2d9",
+  "index_sha256": "b9131e0c4103ed52e8f2f98cd30f9733bd221b1963b4633a8cd9ca386e0fcb14",
+  "interpretation": {
+    "authenticated_problem_count": 117,
+    "excluded_problem_count": 0,
+    "excluded_problem_ids": [],
+    "execution_tests_file": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\interpretation_v3r\\execution_tests.jsonl",
+    "execution_tests_sha256": "58a32fe96058505f154be6ec4221692619f9b44a083bb53742e4380998c426e1",
+    "manifest": "C:\\Users\\<user>\\ML\\gemmaloop-artifacts\\stage0\\modal_lite\\shortfall\\v3r\\interpretation_v3r\\interpretation_manifest.json",
+    "manifest_sha256": "a89d4add3f049a9f86de3b73591230726d1a71bd5103f5c4cdaa8e1e585af7ed"
+  },
+  "kind": "pilot_shortfall_freeze_index",
+  "pending_bindings": [],
+  "readiness": {
+    "final_p2_runnable": true,
+    "pilot_p1_descriptive": true,
+    "pilot_selection_ok": true,
+    "pilot_tfit_ok": true
+  },
+  "rule": {
+    "amendment_adoption": "verified math+code; descriptive-only P1; one conditional four-attempt extension per original P2 math/code problem",
+    "source": "codex-ruling-pilot-shortfall.md (2026-11-06)"
+  },
+  "run_version": "v3r",
+  "status": "complete",
+  "terminal_infrastructure": {
+    "count": 0,
+    "per_domain": {
+      "code": 0,
+      "math": 0
+    },
+    "per_split": {
+      "pilot_p1": 0,
+      "pilot_selection": 0,
+      "pilot_tfit": 0
+    },
+    "reasons": [],
+    "request_count": 0,
+    "request_ids": [],
+    "tests": []
+  },
+  "thresholds": {
+    "pilot_p1_gates": false,
+    "pilot_selection_min": 30,
+    "pilot_tfit_min": 20
+  },
+  "version": 1
+}

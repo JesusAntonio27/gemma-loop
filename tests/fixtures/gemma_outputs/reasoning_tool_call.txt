@@ -1,0 +1,2 @@
+<|channel>thought
+plan<channel|>Hola<|tool_call>call:bash{command:<|"|>pytest -q<|"|>}<tool_call|>

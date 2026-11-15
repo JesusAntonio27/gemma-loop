@@ -1,0 +1,973 @@
+{
+  "actual": {
+    "accounting": {
+      "answer_failures": 1,
+      "blocking_infrastructure_failures": 0,
+      "code_requests": 53,
+      "code_requests_graded": 53,
+      "code_requests_kept": 53,
+      "code_requests_passed": 51,
+      "errors": 2,
+      "infrastructure_failures": 0,
+      "infrastructure_tests": 0,
+      "interpretation_excluded_problems": 0,
+      "interpretation_excluded_requests": 0,
+      "kept": 53,
+      "per_test_rows": 53,
+      "requests": 53,
+      "terminal_infrastructure_failures": 0,
+      "terminal_infrastructure_tests": 0,
+      "timeouts": 1
+    },
+    "corpus_status": "pilot_shortfall_final_corpus",
+    "count_status": "complete",
+    "extension_required": false,
+    "independent_loading": {
+      "accounting": {
+        "answer_failures": 1,
+        "blocking_infrastructure_failures": 0,
+        "code_requests": 53,
+        "code_requests_graded": 53,
+        "code_requests_kept": 53,
+        "code_requests_passed": 51,
+        "errors": 2,
+        "infrastructure_failures": 0,
+        "infrastructure_tests": 0,
+        "interpretation_excluded_problems": 0,
+        "interpretation_excluded_requests": 0,
+        "kept": 53,
+        "per_test_rows": 53,
+        "requests": 53,
+        "terminal_infrastructure_failures": 0,
+        "terminal_infrastructure_tests": 0,
+        "timeouts": 1
+      },
+      "matches_serialized": true,
+      "run_fingerprint": "799ccaf12182ef189400c1beb3c4f4bec136ecd59687ecd4566c0aa609f13c7d"
+    },
+    "index_status": "complete",
+    "infrastructure_failures": 0,
+    "ledger_audit": {
+      "all_attempts_one": true,
+      "attempts_seen": [
+        1
+      ],
+      "first_attempt_is_one": true,
+      "identity_agreement": true,
+      "identity_problems": [],
+      "max_attempt_within_policy": true,
+      "results": 53,
+      "start_records": [
+        {
+          "attempt": 1,
+          "attempt_token": "f859f95322294b64b2450db45bf0434c",
+          "container_name": "gemmaloop-deda2610628b4eb6",
+          "request_id": "apps:5feceb66ffc86f38d952786c:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "1aa9fa265d48486682cc63b45d34a3ca",
+          "container_name": "gemmaloop-fae7fc08ece14f5b",
+          "request_id": "apps:6b86b273ff34fce19d6b804e:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "11215622134a41e29dc92a6c22fe74b8",
+          "container_name": "gemmaloop-6c1fd01d6d674541",
+          "request_id": "apps:d4735e3a265e16eee03f5971:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "fa01ecc688cb47068bf1dec4fb3f7b32",
+          "container_name": "gemmaloop-ba8b242353ba440b",
+          "request_id": "apps:4e07408562bedb8b60ce05c1:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "6ac836eaecba41029a094d6d8a06626f",
+          "container_name": "gemmaloop-cbd52675f1334c7d",
+          "request_id": "apps:4b227777d4dd1fc61c6f884f:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "8ad7ac06d3e744bdb2fe0b6037ad3028",
+          "container_name": "gemmaloop-ca5380d70a6f4b71",
+          "request_id": "apps:ef2d127de37b942baad06145:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "ab919630ec854117b95b62a617977457",
+          "container_name": "gemmaloop-10562277658d4188",
+          "request_id": "apps:e7f6c011776e8db7cd330b54:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "97ca4d81a1f641d4b004a5961a14be21",
+          "container_name": "gemmaloop-fcc3e97fb00d4e6f",
+          "request_id": "apps:7902699be42c8a8e46fbbb45:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "bc5fd47c096746c394d34c2c18d197dc",
+          "container_name": "gemmaloop-9dea150f90c54d5b",
+          "request_id": "apps:2c624232cdd221771294dfbb:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "850b4df3297445a7a63d47d737d4b919",
+          "container_name": "gemmaloop-7103cdb88e7b4417",
+          "request_id": "apps:19581e27de7ced00ff1ce50b:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "51260165aa22470f85c12ac04da0d086",
+          "container_name": "gemmaloop-183d8e569c884b8c",
+          "request_id": "apps:4a44dc15364204a80fe80e90:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "628edbb2a7444bf796289f36d9cb3c9a",
+          "container_name": "gemmaloop-d432cf4a8e2e4af5",
+          "request_id": "apps:4fc82b26aecb47d2868c4efb:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "9120c472fc904e6e8ccf1958b8d3938f",
+          "container_name": "gemmaloop-f2b700dfc6aa4841",
+          "request_id": "apps:6b51d431df5d7f141cbececc:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "f1c9a10e79804775b8e54ec0594fced3",
+          "container_name": "gemmaloop-3aaaaa4ce77740c0",
+          "request_id": "apps:3fdba35f04dc8c462986c992:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "6c4055039c1b4c81ba8c014daaac7e47",
+          "container_name": "gemmaloop-3cb279dd169546cf",
+          "request_id": "apps:8527a891e224136950ff32ca:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "9c71d5d2aeb04ec4acba61d3224c277c",
+          "container_name": "gemmaloop-aa6639273e8d4cf3",
+          "request_id": "apps:e629fa6598d732768f7c726b:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "7966f23f7ac34809b39f986d569c92b4",
+          "container_name": "gemmaloop-d7c03ccfa8114adf",
+          "request_id": "apps:b17ef6d19c7a5b1ee83b907c:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "41c2cfb4e00247b98820137d53d527f6",
+          "container_name": "gemmaloop-c2bb08b1faf64b6e",
+          "request_id": "apps:4523540f1504cd17100c4835:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "21fc0292cf294a97a264baa150f5a115",
+          "container_name": "gemmaloop-cf22e4f00fb145d3",
+          "request_id": "apps:4ec9599fc203d176a301536c:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "17df100b2a0f445081199be3499c53cb",
+          "container_name": "gemmaloop-ec04c5511421455b",
+          "request_id": "apps:9400f1b21cb527d7fa3d3eab:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "9e73cfd02ca54a299489a32a6c7ad5c4",
+          "container_name": "gemmaloop-03dd5d845cf1432e",
+          "request_id": "apps:f5ca38f748a1d6eaf726b8a4:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "9ad5b578ca894e2c97551469e58c48cf",
+          "container_name": "gemmaloop-7fc7a6f8b14c4424",
+          "request_id": "apps:6f4b6612125fb3a0daecd279:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "94e5726025014556ac68696eca48c03b",
+          "container_name": "gemmaloop-39922b6ecfde4a98",
+          "request_id": "apps:785f3ec7eb32f30b90cd0fcf:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "f6d4732b6ea84fbeae322a6476f314d7",
+          "container_name": "gemmaloop-dd03cdc3472e4060",
+          "request_id": "apps:535fa30d7e25dd8a49f15367:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "48db451cf9af4a3aac57b33d9d261f4c",
+          "container_name": "gemmaloop-b02f2e2b9cd84abc",
+          "request_id": "apps:c2356069e9d1e79ca9243781:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "3d40b7901cfd4c86aa033dc99d7c6a2a",
+          "container_name": "gemmaloop-9ef4313868724f27",
+          "request_id": "apps:b7a56873cd771f2c446d369b:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "420a28a64cea48a594cb0e6ece775b83",
+          "container_name": "gemmaloop-269bc0fa37e9484a",
+          "request_id": "apps:5f9c4ab08cac7457e9111a30:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "5f0dc27152c645bd8e481857bfaee70b",
+          "container_name": "gemmaloop-71d0eeee02ca4bab",
+          "request_id": "apps:670671cd97404156226e5079:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "2c73f5e87ca14c1dbc5cf7ce58c8e990",
+          "container_name": "gemmaloop-ec7c539d68ea450f",
+          "request_id": "apps:59e19706d51d39f66711c265:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "53252dea3bb34cfc9b5c00be4e8c7b81",
+          "container_name": "gemmaloop-2dee3cd7e68846e1",
+          "request_id": "apps:35135aaa6cc23891b40cb3f3:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "187167d427494afc96f2276323d25c2a",
+          "container_name": "gemmaloop-4fec4d37b4524cad",
+          "request_id": "apps:624b60c58c9d8bfb6ff1886c:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "f5acc65cbf9f4f178fa91a5cc7f1e608",
+          "container_name": "gemmaloop-f8f74282dc764046",
+          "request_id": "apps:eb1e33e8a81b697b75855af6:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "0e2452f8f8d84b648441efff9cf34a45",
+          "container_name": "gemmaloop-27d652c3ad1444e0",
+          "request_id": "apps:e29c9c180c6279b0b02abd6a:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "099f07b5c657438db0b43e47ad83f766",
+          "container_name": "gemmaloop-04b99f35fc034616",
+          "request_id": "apps:c6f3ac57944a531490cd3990:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "f0d84728a98b4fe1ad2547a532d41511",
+          "container_name": "gemmaloop-94005a6f7da3430f",
+          "request_id": "apps:86e50149658661312a9e0b35:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "f2c856edd2494d5fa9a66ecaa9be45cd",
+          "container_name": "gemmaloop-48faa15cd24c48c8",
+          "request_id": "apps:9f14025af0065b30e47e23eb:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "a8414bd999e34a6186b7d4b849f9ca3c",
+          "container_name": "gemmaloop-6fdc7e54c58e4f18",
+          "request_id": "apps:76a50887d8f1c2e930175542:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "acfa8d2dd8a349fe88a36cf1723acf02",
+          "container_name": "gemmaloop-48cd414be308489b",
+          "request_id": "apps:7a61b53701befdae0eeeffae:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "2f6e94ccbb9348feb74d89d7d33002ee",
+          "container_name": "gemmaloop-6a48a0396e8443df",
+          "request_id": "apps:aea92132c4cbeb263e6ac2bf:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "67d12a60c3f7489d8a216aa46b8b59a6",
+          "container_name": "gemmaloop-b4b8cee99614481a",
+          "request_id": "apps:0b918943df0962bc7a1824c0:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "1f95ae244ceb49aa8b82b7199784b2b3",
+          "container_name": "gemmaloop-38246307cc624bc3",
+          "request_id": "apps:d59eced1ded07f84c145592f:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "f8a9f66c7bf64f74b8aa57c8daff85ce",
+          "container_name": "gemmaloop-b2c8b3f625bb47ae",
+          "request_id": "apps:3d914f9348c9cc0ff8a79716:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "64bd5d47622d480b849ba2fe3c2ecf85",
+          "container_name": "gemmaloop-2eeb6550e6bc4962",
+          "request_id": "apps:73475cb40a568e8da8a045ce:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "6e311c44bd384f70bc7743e28d9730a4",
+          "container_name": "gemmaloop-4608c1eeab314694",
+          "request_id": "apps:44cb730c420480a0477b505a:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "5f18dd82af5d4e81a055a72756a27e22",
+          "container_name": "gemmaloop-5bf815cb6dad40a3",
+          "request_id": "apps:71ee45a3c0db9a9865f7313d:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "251d3dc1c5a24a55bf96b7037b0295d5",
+          "container_name": "gemmaloop-d3d84778b0d94287",
+          "request_id": "apps:811786ad1ae74adfdd20dd03:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "3405da9c56564588a68efe48a5cd73c6",
+          "container_name": "gemmaloop-fae9d191ab724730",
+          "request_id": "apps:25fc0e7096fc653718202dc3:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "7763e244d5f64677baa011079ab231a8",
+          "container_name": "gemmaloop-4327df93ef2a4473",
+          "request_id": "apps:31489056e0916d59fe3add79:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "79dc0c37b6c140feb889ec39792bb0b0",
+          "container_name": "gemmaloop-db8dc2b477114c1c",
+          "request_id": "apps:98010bd9270f9b100b6214a2:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "355c0e6b47914d4f8686f7a80766f604",
+          "container_name": "gemmaloop-3de37af6f5e341bf",
+          "request_id": "apps:0e17daca5f3e175f448bacac:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "bbb92d3faf434630b0c9d0cd5dc7a121",
+          "container_name": "gemmaloop-dcf37c315aaf44a6",
+          "request_id": "apps:1a6562590ef19d1045d06c40:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "f9d7a7d7f8814341a72cf98e14a69d84",
+          "container_name": "gemmaloop-5728b296f740495c",
+          "request_id": "apps:031b4af5197ec30a926f48cf:0",
+          "test_index": 0
+        },
+        {
+          "attempt": 1,
+          "attempt_token": "35d85e3896a546a89a8371477f400a54",
+          "container_name": "gemmaloop-2054419e3a9e4e99",
+          "request_id": "apps:41cfc0d1f2d127b04555b724:0",
+          "test_index": 0
+        }
+      ],
+      "starts": 53
+    },
+    "nS0": 30,
+    "nT0": 20,
+    "official_artifacts": {
+      "v3/count_v3/attempt_ledger.jsonl": "7d0e9fb47c6e73218f274cb8305590861bbbf763f33f1d9b43d09ad5455fced1",
+      "v3/count_v3/count_manifest.json": "5b0cd11b9b612914de865eb06b6419bab3376f01eb07380ed6ffd2134e854ea2",
+      "v3/verifier_v3/verifier_freeze.json": "3eed1f0be765e609e13f3f91460f3a15f1ff032cec1d1373c294477f914e1ea0",
+      "v3_registry.json": "5e103b898ec9aac6a5b862cda4d607761c5bda815b701366625ab45823ce8a12"
+    },
+    "pilot_p1": 1,
+    "registry_attempt_base": 1,
+    "registry_max_infrastructure_retries": 1,
+    "registry_status": "complete",
+    "timeout_exercise": {
+      "cleanup_verified": true,
+      "container_name": "gemmaloop-6c1fd01d6d674541",
+      "count_coverage_policy": "conclusive via the wrapper enforcement route (A): the frozen wrapper received the authenticated deadline notice, observed the identified child alive, killed it and exited before the host enforcement window; the host observed the process exit inside deadline + 0.25 s and verified cleanup, so no host enforcement action is required",
+      "counted_timeouts": 1,
+      "deadline_alive": true,
+      "deadline_enforcement_route": "wrapper",
+      "enforcement_route": "wrapper",
+      "expected": "candidate running at the registered 6 s outer deadline",
+      "failure_class": "timeout",
+      "host_deadline_monotonic": 190884.6711871,
+      "host_exit_monotonic": 190884.7360056,
+      "host_exit_within_bound": true,
+      "identity_agreement": true,
+      "infrastructure_failure": false,
+      "lifecycle_attempt": "11215622134a41e29dc92a6c22fe74b8",
+      "lifecycle_class": "candidate_running_at_deadline",
+      "lifecycle_valid": true,
+      "observed_status": "timeout",
+      "problem_id": "apps:d4735e3a265e16eee03f5971",
+      "request_id": "apps:d4735e3a265e16eee03f5971:0",
+      "start_received_within_budget": true,
+      "termination_verified": true,
+      "timed_out": true,
+      "wrapper_kill_verified": true
+    }
+  },
+  "all_checks_passed": true,
+  "artifact_sha256": {
+    "corpus_manifest": "88242af58938fe8e12ed7d24ece49b9d28ab5592283c56a1882e234d24f59786",
+    "count_manifest": "b83cb798b3756a720364be97f679b1b38feb0ba5558866c295a53cbcb71fcbc8",
+    "count_summary": "9b0164760c092ab921985c5fb1e18b30569db62dcdff4a43e8547e60bf281088",
+    "freeze": "c1956e1adc18078c7fed5b55af1775accbb3bb08c13635bf6444f37aa7d8a61b",
+    "index": "c76e1948ec2b868b3dfb0f94249c2cd86237a297f8fb201063b7eaf283688382",
+    "ledger": "bb420a46b63224060be359b1b8a13ef77a61a68648593ff0851bad0ef1e106f5",
+    "per_request": "ef6af457efb22a62b3e1246d9cd0490549a5da7aaa11253599a84c778e573770",
+    "v3r_registry": "01c7088b881eab46ce5ad9e951a5a902a61b6c50bb4e653f495b5d2afbe6f59b"
+  },
+  "artifacts": {
+    "corpus": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r\\corpus_v3r",
+    "count": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r\\count_v3r\\summary.json",
+    "freeze": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r\\verifier_v3r\\verifier_freeze.json",
+    "index": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r\\pilot-shortfall-freeze-v3r.json",
+    "interpretation": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r\\interpretation_v3r\\interpretation_manifest.json",
+    "ledger": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r\\count_v3r\\attempt_ledger.jsonl",
+    "plan": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r\\pilot_topup_plan_v3r.json",
+    "registry": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r_registry.json"
+  },
+  "checks": [
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "v3r registry claimed and complete",
+      "ok": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "count status complete",
+      "ok": true
+    },
+    {
+      "actual": "799ccaf12182ef189400c1beb3c4f4bec136ecd59687ecd4566c0aa609f13c7d",
+      "expected": "799ccaf12182ef189400c1beb3c4f4bec136ecd59687ecd4566c0aa609f13c7d",
+      "name": "independent count loader agrees",
+      "ok": true
+    },
+    {
+      "actual": [
+        1
+      ],
+      "expected": [
+        1
+      ],
+      "name": "v3r attempts start at 1",
+      "ok": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "single registered retry not exceeded",
+      "ok": true
+    },
+    {
+      "actual": [],
+      "expected": true,
+      "name": "container names and attempt tokens agree with lifecycle/ledger",
+      "ok": true
+    },
+    {
+      "actual": 53,
+      "expected": 53,
+      "name": "all kept code requests were executed",
+      "ok": true
+    },
+    {
+      "actual": 51,
+      "expected": 51,
+      "name": "known passing candidates verified",
+      "ok": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "known failing candidate accounted as a candidate failure",
+      "ok": true
+    },
+    {
+      "actual": "candidate_running_at_deadline",
+      "expected": "candidate_running_at_deadline",
+      "name": "production default path identifies a candidate timeout",
+      "ok": true
+    },
+    {
+      "actual": "timeout",
+      "expected": "timeout",
+      "name": "timeout classification is a registered outer-deadline timeout",
+      "ok": true
+    },
+    {
+      "actual": "wrapper",
+      "expected": "wrapper",
+      "name": "timeout is conclusive through the wrapper enforcement route",
+      "ok": true
+    },
+    {
+      "actual": [
+        "complete",
+        1
+      ],
+      "expected": [
+        "complete",
+        1
+      ],
+      "name": "timeout inside the count does not block it",
+      "ok": true
+    },
+    {
+      "actual": [
+        20,
+        30
+      ],
+      "expected": [
+        20,
+        30
+      ],
+      "name": "T-fit / selection distinct verified counts clear thresholds",
+      "ok": true
+    },
+    {
+      "actual": "1cd62a1ef4bfe494970753ee93491ee8854a11053553819f08d6b49cde214f84",
+      "expected": true,
+      "name": "synthetic continuity links the void receipt",
+      "ok": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "corpus manifest built",
+      "ok": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "freeze index built",
+      "ok": true
+    },
+    {
+      "actual": {
+        "v3/count_v3/attempt_ledger.jsonl": "7d0e9fb47c6e73218f274cb8305590861bbbf763f33f1d9b43d09ad5455fced1",
+        "v3/count_v3/count_manifest.json": "5b0cd11b9b612914de865eb06b6419bab3376f01eb07380ed6ffd2134e854ea2",
+        "v3/verifier_v3/verifier_freeze.json": "3eed1f0be765e609e13f3f91460f3a15f1ff032cec1d1373c294477f914e1ea0",
+        "v3_registry.json": "5e103b898ec9aac6a5b862cda4d607761c5bda815b701366625ab45823ce8a12"
+      },
+      "expected": {
+        "v3/count_v3/attempt_ledger.jsonl": "7d0e9fb47c6e73218f274cb8305590861bbbf763f33f1d9b43d09ad5455fced1",
+        "v3/count_v3/count_manifest.json": "5b0cd11b9b612914de865eb06b6419bab3376f01eb07380ed6ffd2134e854ea2",
+        "v3/verifier_v3/verifier_freeze.json": "3eed1f0be765e609e13f3f91460f3a15f1ff032cec1d1373c294477f914e1ea0",
+        "v3_registry.json": "5e103b898ec9aac6a5b862cda4d607761c5bda815b701366625ab45823ce8a12"
+      },
+      "name": "official v3 artifacts untouched",
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "name": "production v3r CLI main() executed the synthetic run",
+      "ok": true
+    },
+    {
+      "actual": [
+        "scripts/build_pilot_corpus.py",
+        "scripts/count_pilot_verified.py",
+        "scripts/freeze_pilot_verifier.py",
+        "scripts/freeze_recount_v3.py",
+        "scripts/freeze_recount_v3r.py",
+        "scripts/modal_stage0.py",
+        "scripts/plan_pilot_topup.py",
+        "scripts/recover_source_types.py",
+        "scripts/run_pilot.py"
+      ],
+      "expected": "scripts/freeze_recount_v3r.py",
+      "name": "production v3r CLI is bound as an executing entry point",
+      "ok": true
+    },
+    {
+      "actual": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r",
+      "expected": true,
+      "name": "synthetic workspace is outside the official artifacts",
+      "ok": true
+    }
+  ],
+  "command": [
+    "uv",
+    "run",
+    "--offline",
+    "python",
+    "scripts/dry_run_v3r.py"
+  ],
+  "created_utc": "2026-11-07T05:37:02.256090+00:00",
+  "duration_s": 61.044,
+  "environment": {
+    "cuda_visible_devices": "",
+    "cwd": "C:\\Users\\<user>\\ML\\GemmaLoop",
+    "docker": {
+      "docker_info": {
+        "command": [
+          "docker",
+          "info",
+          "--format",
+          "{{.ServerVersion}}"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "29.3.1\n"
+      },
+      "docker_version": {
+        "command": [
+          "docker",
+          "version",
+          "--format",
+          "{{json .}}"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "{\"Client\":{\"Version\":\"29.3.1\",\"ApiVersion\":\"1.54\",\"DefaultAPIVersion\":\"1.54\",\"GitCommit\":\"c2be9cc\",\"GoVersion\":\"go1.25.8\",\"Os\":\"windows\",\"Arch\":\"amd64\",\"BuildTime\":\"Wed Mar 25 16:16:33 2026\",\"Context\":\"desktop-linux\"},\"Server\":{\"Platform\":{\"Name\":\"Docker Desktop 4.68.0 (223695)\"},\"Version\":\"29.3.1\",\"ApiVersion\":\"1.54\",\"MinAPIVersion\":\"1.40\",\"Os\":\"linux\",\"Arch\":\"amd64\",\"Components\":[{\"Name\":\"Engine\",\"Version\":\"29.3.1\",\"Details\":{\"ApiVersion\":\"1.54\",\"Arch\":\"amd64\",\"BuildTime\":\"Wed Mar 25 16:13:48 2026\",\"Experimental\":\"false\",\"GitCommit\":\"f78c987\",\"GoVersion\":\"go1.25.8\",\"KernelVersion\":\"6.6.87.2-microsoft-standard-WSL2\",\"MinAPIVersion\":\"1.40\",\"Os\":\"linux\"}},{\"Name\":\"containerd\",\"Version\":\"v2.2.1\",\"Details\":{\"GitCommit\":\"dea7da592f5d1d2b7755e3a161be07f43fad8f75\"}},{\"Name\":\"runc\",\"Version\":\"1.3.4\",\"Details\":{\"GitCommit\":\"v1.3.4-0-gd6d73eb8\"}},{\"Name\":\"docker-init\",\"Version\":\"0.19.0\",\"Details\":{\"GitCommit\":\"de40ad0\"}}],\"GitCommit\":\"f78c987\",\"GoVersion\":\"go1.25.8\",\"KernelVersion\":\"6.6.87.2-microsoft-standard-WSL2\",\"BuildTime\":\"2026-03-25T16:13:48.000000000+00:00\"}}\n"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\<user>\\ML\\GemmaLoop\\.venv\\Scripts\\python.exe"
+  },
+  "executing_code_hashes": {
+    "src/gemmaloop/eval/benchmarks/lcb.py": "3791a25ab1109635d69191222251ba84172cea5e738411a8cef5005760c577dd",
+    "src/gemmaloop/pilot/eval_rows.py": "2adadccfbf11b1b845abfc114d5fe8ca005dbe2ef186183fa6c5e0a855584c93",
+    "src/gemmaloop/stage0/grader.py": "79a2865fef1fdbaeeb131dd2ceeffa0805d8ad4d5a7ba0fb02ee0a764e323562",
+    "src/gemmaloop/stage0/interpretation.py": "4ee5f9a90ad2e3023ec739241d8652b3509a8ba7bf81a4e80b1df23ba4d8aeba",
+    "src/gemmaloop/stage0/local.py": "73014241718e8cef3609c62e1576e47a062229dc2911e0593fd0ef2b90fd04ac",
+    "src/gemmaloop/stage0/pool.py": "c163c706284e9682889345458d61beefc7e8965a00e802d8a0a67e00e59c0c77",
+    "src/gemmaloop/stage0/postprocess.py": "7e697c3b3d9841d521e94f110ebd57a186a901db9e7ab8a0edacd961865aec34",
+    "src/gemmaloop/stage0/shortfall.py": "dfff0ce65aa6c94091e413c4380299ed0553b592c541c4e7eb58bade595a24f8",
+    "src/gemmaloop/stage0/source_recovery.py": "0b0f027d78d75b326db88ebff6a1449032aa4d0431da1dc0528d099dbf8bc34a",
+    "src/gemmaloop/stage0/sources.py": "dee86266a21164de293a8f39dfdf2c9dac1eafc68a8efd4db00463a787c25b86",
+    "src/gemmaloop/train/labels.py": "c6ebb503532ff90262f54c45c9393c726f50f031925518ad7a5d089204e0a170"
+  },
+  "executing_implementation": {
+    "code_hashes": {
+      "src/gemmaloop/eval/benchmarks/lcb.py": "3791a25ab1109635d69191222251ba84172cea5e738411a8cef5005760c577dd",
+      "src/gemmaloop/pilot/eval_rows.py": "2adadccfbf11b1b845abfc114d5fe8ca005dbe2ef186183fa6c5e0a855584c93",
+      "src/gemmaloop/stage0/grader.py": "79a2865fef1fdbaeeb131dd2ceeffa0805d8ad4d5a7ba0fb02ee0a764e323562",
+      "src/gemmaloop/stage0/interpretation.py": "4ee5f9a90ad2e3023ec739241d8652b3509a8ba7bf81a4e80b1df23ba4d8aeba",
+      "src/gemmaloop/stage0/local.py": "73014241718e8cef3609c62e1576e47a062229dc2911e0593fd0ef2b90fd04ac",
+      "src/gemmaloop/stage0/pool.py": "c163c706284e9682889345458d61beefc7e8965a00e802d8a0a67e00e59c0c77",
+      "src/gemmaloop/stage0/postprocess.py": "7e697c3b3d9841d521e94f110ebd57a186a901db9e7ab8a0edacd961865aec34",
+      "src/gemmaloop/stage0/shortfall.py": "dfff0ce65aa6c94091e413c4380299ed0553b592c541c4e7eb58bade595a24f8",
+      "src/gemmaloop/stage0/source_recovery.py": "0b0f027d78d75b326db88ebff6a1449032aa4d0431da1dc0528d099dbf8bc34a",
+      "src/gemmaloop/stage0/sources.py": "dee86266a21164de293a8f39dfdf2c9dac1eafc68a8efd4db00463a787c25b86",
+      "src/gemmaloop/train/labels.py": "c6ebb503532ff90262f54c45c9393c726f50f031925518ad7a5d089204e0a170"
+    },
+    "dependencies": {
+      "docker_server": "29.3.1",
+      "huggingface-hub": "2.4.0",
+      "math-verify": "0.9.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.13",
+      "python_full": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+      "transformers": "5.22.1"
+    },
+    "entry_points": [
+      {
+        "bytes": 3867,
+        "label": "scripts/recover_source_types.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\recover_source_types.py",
+        "sha256": "a68f1f1e0bf6bb684fee46499dc940eaf50fc6bb1abde788735edd366d169966"
+      },
+      {
+        "bytes": 3210,
+        "label": "scripts/freeze_pilot_verifier.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\freeze_pilot_verifier.py",
+        "sha256": "d538c29bdc7b249cdc06eeb4b29813b5263a433f7864c4e86790fda2d90250d8"
+      },
+      {
+        "bytes": 4158,
+        "label": "scripts/count_pilot_verified.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\count_pilot_verified.py",
+        "sha256": "84aea2fccf0ffe591161016fead0eef6663b4939ca7faf1974bfcb0534683cc8"
+      },
+      {
+        "bytes": 2143,
+        "label": "scripts/plan_pilot_topup.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\plan_pilot_topup.py",
+        "sha256": "3e17ca857083058414b5c22a0a82e94a8dd15b585ee8823d42183ee22146711c"
+      },
+      {
+        "bytes": 5217,
+        "label": "scripts/build_pilot_corpus.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\build_pilot_corpus.py",
+        "sha256": "8798f765b55302c565e507a03d7353e832b9f62a203c8e0d224612da9722ae38"
+      },
+      {
+        "bytes": 4991,
+        "label": "scripts/freeze_recount_v3.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\freeze_recount_v3.py",
+        "sha256": "bd133dd490774dca0452ef46dc9226248fc37ce086b36e7e4723edb7c5f2b6b1"
+      },
+      {
+        "bytes": 5553,
+        "label": "scripts/freeze_recount_v3r.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\freeze_recount_v3r.py",
+        "sha256": "eac936e6a5c5f4a1faf8e90921dce7e54c2125836f60774c4184fdda6dc2c7cd"
+      },
+      {
+        "bytes": 38613,
+        "label": "scripts/run_pilot.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\run_pilot.py",
+        "sha256": "ad7bd554cb3219118c1c83f80e43eb49ea8970e9317029b3af5db3cd995c4a5f"
+      },
+      {
+        "bytes": 166241,
+        "label": "scripts/modal_stage0.py",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\scripts\\modal_stage0.py",
+        "sha256": "c6d701e0092b2e02fa27ff6c7b8b50bcd0b8486b9941c6b7392edc9ad57f7c83"
+      }
+    ],
+    "git": {
+      "branch": "feat/gemma-loop-impl",
+      "commit": "22d0af4919cde4287f98b27c7e6c03abb1895f92",
+      "describe": "22d0af4",
+      "dirty": false,
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "interpreter": {
+      "executable": "C:\\Users\\<user>\\ML\\GemmaLoop\\.venv\\Scripts\\python.exe",
+      "python": "3.12.13",
+      "version": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]"
+    },
+    "modules": [
+      {
+        "bytes": 15468,
+        "module": "gemmaloop.eval.benchmarks.lcb",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\eval\\benchmarks\\lcb.py",
+        "sha256": "3791a25ab1109635d69191222251ba84172cea5e738411a8cef5005760c577dd"
+      },
+      {
+        "bytes": 9348,
+        "module": "gemmaloop.pilot.eval_rows",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\pilot\\eval_rows.py",
+        "sha256": "2adadccfbf11b1b845abfc114d5fe8ca005dbe2ef186183fa6c5e0a855584c93"
+      },
+      {
+        "bytes": 136380,
+        "module": "gemmaloop.stage0.grader",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\grader.py",
+        "sha256": "79a2865fef1fdbaeeb131dd2ceeffa0805d8ad4d5a7ba0fb02ee0a764e323562"
+      },
+      {
+        "bytes": 27312,
+        "module": "gemmaloop.stage0.interpretation",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\interpretation.py",
+        "sha256": "4ee5f9a90ad2e3023ec739241d8652b3509a8ba7bf81a4e80b1df23ba4d8aeba"
+      },
+      {
+        "bytes": 72157,
+        "module": "gemmaloop.stage0.local",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\local.py",
+        "sha256": "73014241718e8cef3609c62e1576e47a062229dc2911e0593fd0ef2b90fd04ac"
+      },
+      {
+        "bytes": 14363,
+        "module": "gemmaloop.stage0.pool",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\pool.py",
+        "sha256": "c163c706284e9682889345458d61beefc7e8965a00e802d8a0a67e00e59c0c77"
+      },
+      {
+        "bytes": 17802,
+        "module": "gemmaloop.stage0.postprocess",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\postprocess.py",
+        "sha256": "7e697c3b3d9841d521e94f110ebd57a186a901db9e7ab8a0edacd961865aec34"
+      },
+      {
+        "bytes": 370935,
+        "module": "gemmaloop.stage0.shortfall",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\shortfall.py",
+        "sha256": "dfff0ce65aa6c94091e413c4380299ed0553b592c541c4e7eb58bade595a24f8"
+      },
+      {
+        "bytes": 7231,
+        "module": "gemmaloop.stage0.source_recovery",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\source_recovery.py",
+        "sha256": "0b0f027d78d75b326db88ebff6a1449032aa4d0431da1dc0528d099dbf8bc34a"
+      },
+      {
+        "bytes": 30229,
+        "module": "gemmaloop.stage0.sources",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\stage0\\sources.py",
+        "sha256": "dee86266a21164de293a8f39dfdf2c9dac1eafc68a8efd4db00463a787c25b86"
+      },
+      {
+        "bytes": 8244,
+        "module": "gemmaloop.train.labels",
+        "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\src\\gemmaloop\\train\\labels.py",
+        "sha256": "c6ebb503532ff90262f54c45c9393c726f50f031925518ad7a5d089204e0a170"
+      }
+    ],
+    "repo_root": "C:\\Users\\<user>\\ML\\GemmaLoop"
+  },
+  "expectations": [
+    "The exact production v3r CLI main() (scripts/freeze_recount_v3r.py) runs the guard, image digest check, tokenizer load and the production v3r orchestration end to end.",
+    "The production v3r CLI is bound in the executing implementation entry points.",
+    "The exact production default grading path (default count adapter -> grade_code -> DockerSandbox.run_tests) runs end to end.",
+    "Every synthetic stdin and functional passing candidate verifies.",
+    "The known failing candidate is a conclusive candidate failure, not infrastructure.",
+    "The timeout candidate runs inside the same production count; the real 6 s outer deadline identifies candidate_running_at_deadline, the wrapper enforcement route (A) makes it a conclusive candidate timeout, and the count remains complete.",
+    "Container names and attempt tokens agree across ledger, lifecycle evidence and per-request rows.",
+    "v3r attempts begin at 1 and never exceed the single registered retry.",
+    "Independent count loading reproduces the serialized count.",
+    "Corpus and freeze index build successfully.",
+    "No official v3 artifact or registry byte changes."
+  ],
+  "fixture": {
+    "files": {
+      "lite\\manifest.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "lite\\pilot\\manifest.json": "d456116f1e47a637df45ee312392d360bcfe953acc29402606b7a0d79a016a5a",
+      "lite\\request_ids.txt": "9f123ac0b9ad6a99b7862c3529c73b5011f9a52e99b5f8a002874a7aa2737595",
+      "lite\\run_marker.json": "8ba90309fdc156c55b0f4762dcdcafa95655d937c8ad23c181b339e858ac51f5",
+      "lite\\sample_grades.jsonl": "4226cb45467040258ae93cdf612c1c79844dacde12eafd8bb502a4d9f99bb4d5",
+      "lite\\shards\\shard_00000.jsonl": "b42d37e136305a026a2bb313b96254d5e6f4c2715bfc2218b4109fc1a349c8d0",
+      "lite\\shortfall\\v3\\count_v3\\attempt_ledger.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "lite\\shortfall\\v3\\count_v3\\count_manifest.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "lite\\shortfall\\v3\\verifier_v3\\verifier_freeze.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "lite\\shortfall\\v3_registry.json": "8ea968f9440aa11fd3520973704ebae8bbc3dde5346d91a254d8813052039c1e",
+      "lite\\shortfall\\v3_void_receipt.json": "1cd62a1ef4bfe494970753ee93491ee8854a11053553819f08d6b49cde214f84",
+      "pool\\manifest.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "pool\\problems.jsonl": "7f7f74b9100fc5f4a0f741819dcd4448539279efb2fe7e30fe442220a258977d",
+      "pool\\split_pilot_p1.jsonl": "435d7c7a13a92c6661a3d2f8a152217f77ac04af89e3d90ca42755e27fa6ae51",
+      "pool\\split_pilot_selection.jsonl": "959a0b6530ab1298671455a2a7edef9eff59e1d3fedd5353777612a43adf5caf",
+      "pool\\split_pilot_tfit.jsonl": "95a00a6e0144344e6e2a6f5f172b174cf403b9be716d2c755edd2902669f1866",
+      "synthetic-void-ruling.md": "eb3fe7417bd00144c0616dc148116084540b85be1308e10d68de136ec08a2437"
+    },
+    "functional_tests": 1,
+    "known_failing": 1,
+    "known_timeout": 1,
+    "notes": "Hand-authored synthetic candidates only. No pilot pool, lite completion, request id or official output was read or written.",
+    "selection_passing": 30,
+    "stdin_tests": 52,
+    "synthetic_candidates": 53,
+    "t_fit_passing": 20
+  },
+  "image": {
+    "digest": "sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54",
+    "id": "sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54",
+    "pinned": "python@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54",
+    "repo_digests": [
+      "python@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54"
+    ],
+    "tag": "python:3.12-slim"
+  },
+  "kind": "gemmaloop_v3r_synthetic_dry_run_receipt",
+  "label": "SYNTHETIC-ONLY, NON-OFFICIAL v3r dry-run validation",
+  "official": false,
+  "production_cli": {
+    "argv": [
+      "--repo-root",
+      "C:\\Users\\<user>\\ML\\GemmaLoop",
+      "--pool-dir",
+      "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\pool",
+      "--lite-dir",
+      "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite",
+      "--request-ids",
+      "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\request_ids.txt",
+      "--out-root",
+      "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r",
+      "--image",
+      "python:3.12-slim",
+      "--workers",
+      "1",
+      "--max-length",
+      "8192"
+    ],
+    "entry_point": "main",
+    "module": "scripts/freeze_recount_v3r.py",
+    "redirected": "Only pool/lite/request-id/output-root paths are synthetic; the source-record loader is the offline synthetic fixture loader. The official guard, image digest check, tokenizer load and run_v3r_pipeline are the production main() path.",
+    "returncode": 0
+  },
+  "python_argv": [
+    "scripts/dry_run_v3r.py"
+  ],
+  "synthetic": true,
+  "synthetic_void_continuity": {
+    "continuity": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r_continuity.json",
+    "continuity_review": {
+      "path": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r_replacement_review.json",
+      "reviewer": "synthetic-dry-run",
+      "role": "replacement_review",
+      "sha256": "906988cec1b1cb7eb509a1e45651828de6c2d13892be2ba0ea4c302ef32a25ad",
+      "status": "recorded"
+    },
+    "continuity_sha256": "11c4b6f81f9f92f6946b17f047a598903755a5bec420faf0508d1c835fc4e285",
+    "receipt_payload_sha256": "34d2923b9a1fd7234ae437b7ae980baabfd9eca066e4bb0690f643f18e837fd2",
+    "registry": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3_registry.json",
+    "review": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3r_replacement_review.json",
+    "void_receipt": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run\\lite\\shortfall\\v3_void_receipt.json",
+    "void_receipt_sha256": "1cd62a1ef4bfe494970753ee93491ee8854a11053553819f08d6b49cde214f84"
+  },
+  "version": 1,
+  "workspace": "C:\\Users\\<user>\\ML\\GemmaLoop\\.v3r-dry-run"
+}

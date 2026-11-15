@@ -1,0 +1,19 @@
+{
+  "question": "There are $n$ candy boxes in front of Tania. The boxes are arranged in a row from left to right.",
+  "solutions": "[\"INF = 10000000000.0\\ndef main():\\n    n, s, k = map(int, input().split())\\n    print(s)\\n\\nmain()\\n\"]",
+  "starter_code": "",
+  "input_output": "{\"inputs\": [\"5 3 10\\n1 2 3 4 5\\nRGBRR\\n\"], \"outputs\": [\"2\\n\"]}",
+  "difficulty": "HARD",
+  "raw_tags": "['dp']",
+  "name": null,
+  "source": "codeforces",
+  "tags": "['Dynamic programming']",
+  "skill_types": "['Dynamic programming']",
+  "url": "https://codeforces.com/problemset/problem/1057/C",
+  "Expected Auxiliary Space": null,
+  "time_limit": null,
+  "date": "2019-12-31",
+  "picture_num": null,
+  "memory_limit": null,
+  "Expected Time Complexity": null
+}

@@ -1,0 +1,76 @@
+# Docker reads this file from the build-context root:
+#   docker build -f docker/Dockerfile -t gemmaloop:r1 .
+# Keep the patterns in sync with docker/.dockerignore.
+#
+# Virtual environments, caches and local ledgers
+.venv*
+**/.venv*
+artifacts
+artifacts/
+**/artifacts/
+.superpowers
+.superpowers/
+**/.superpowers/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+**/*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+**/.mypy_cache/
+.ruff_cache/
+**/.ruff_cache/
+.oc/
+**/.oc/
+*.egg-info/
+**/*.egg-info/
+*.log
+**/*.log
+.git/
+.gitignore
+#
+# Secrets: never bake credentials into the image.  Pass HF_TOKEN at runtime.
+.env*
+**/.env*
+*.pem
+**/*.pem
+*.key
+**/*.key
+*.p12
+**/*.p12
+.netrc
+**/.netrc
+*token*
+**/*token*
+credentials*
+**/credentials*
+.aws/
+**/.aws/
+.huggingface/
+**/.huggingface/
+.cache/
+**/.cache/
+#
+# Model weights and run outputs (mounted through /cache and /artifacts)
+*.safetensors
+**/*.safetensors
+*.bin
+**/*.bin
+*.gguf
+**/*.gguf
+*.pt
+**/*.pt
+*.pth
+**/*.pth
+*.ckpt
+**/*.ckpt
+checkpoints
+checkpoints/
+**/checkpoints/
+wandb/
+**/wandb/
+runs/
+**/runs/
+outputs/
+**/outputs/

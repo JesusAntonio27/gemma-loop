@@ -1,0 +1,9 @@
+{
+  "problem_id": 0,
+  "question": "Polycarp has $n$ different binary words. A word called binary if it consists of characters '0' and '1'.",
+  "solutions": "[\"for _ in range(int(input())):\\n    n = int(input())\\n    print(n)\\n\"]",
+  "input_output": "{\n  \"inputs\": [\n    \"4\\n4\\n0001\\n1000\\n0011\\n0111\\n\"\n  ],\n  \"outputs\": [\n    \"1\\n3 \\n-1\\n0\\n\"\n  ]\n}",
+  "difficulty": "interview",
+  "url": "https://codeforces.com/problemset/problem/1259/D",
+  "starter_code": ""
+}

@@ -1,0 +1,29 @@
+# Minimal run config used by tests/eval/test_runner.py.
+# Task 10 will make prereg/prereg.yaml follow exactly this structure.
+tag: prereg-v1
+
+sampling:
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 32
+  max_new_tokens: 4096
+  enable_thinking: true
+
+benches:
+  aime:
+    limit: 3
+    samples: 2
+    seed: 7
+  lcb:
+    limit: 2
+    samples: 1
+    seed: 0
+  gpqa:
+    limit: 2
+    samples: 2
+    seed: 0
+  mathvision:
+    limit: 4
+    samples: 1
+    seed: 0
+    image_soft_tokens: 1120

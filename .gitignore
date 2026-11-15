@@ -1,0 +1,10 @@
+.venv*
+__pycache__/
+*.py[cod]
+*.safetensors
+artifacts/
+.oc/
+.pytest_cache/
+.v3r-dry-run/
+*.egg-info/
+.superpowers/

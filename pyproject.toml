@@ -1,0 +1,58 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gemmaloop"
+version = "0.1.0"
+description = "Looped-layer Gemma 4 (E2B/E4B) fine-tuning and evaluation"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "torchaudio==2.11.0",
+    "transformers==5.22.1",
+    "peft==0.21.2",
+    "trl==1.17.1",
+    "bitsandbytes==0.50.2",
+    "accelerate==1.15.0",
+    "datasets==5.1.0",
+    "fastapi",
+    "uvicorn",
+    "pydantic>=2",
+    "playwright",
+    "rapidfuzz",
+    "datasketch",
+    "scipy",
+    "statsmodels",
+    "scikit-learn",
+    "matplotlib",
+    "openai",
+    "pyyaml",
+    "mitmproxy",
+    "huggingface_hub[cli]",
+    "pytest",
+    "math-verify[antlr4-13-2]>=0.9.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gemmaloop"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+markers = [
+    "gpu: requires a CUDA GPU",
+    "slow: long-running test",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }

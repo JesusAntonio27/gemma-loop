@@ -1,0 +1,291 @@
+{
+  "cases": [
+    {
+      "classification": "refused",
+      "detail": {
+        "expected_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "image": "python:3.12-slim"
+      },
+      "name": "digest_mismatch_refused",
+      "ok": true
+    },
+    {
+      "classification": "startup_failure",
+      "detail": {
+        "marker_error": null,
+        "mode": "missing"
+      },
+      "name": "missing_markers",
+      "ok": true
+    },
+    {
+      "classification": "startup_failure",
+      "detail": {
+        "marker_error": "lifecycle marker HMAC invalid at line 1",
+        "mode": "altered"
+      },
+      "name": "altered_markers",
+      "ok": true
+    },
+    {
+      "classification": "unresolved",
+      "detail": {
+        "marker_error": null,
+        "mode": "out_of_order"
+      },
+      "name": "out_of_order_markers",
+      "ok": true
+    },
+    {
+      "classification": "candidate_completed_before_deadline",
+      "detail": {
+        "marker_error": null,
+        "mode": "post_completion"
+      },
+      "name": "post_completion_delay",
+      "ok": true
+    },
+    {
+      "classification": "candidate_completed_before_deadline",
+      "detail": {
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-bbf0a743e3604623",
+        "error": null,
+        "lifecycle_valid": true,
+        "marker_error": null,
+        "passed": true,
+        "stderr_head": "",
+        "stdout_head": "1\n",
+        "timed_out": false
+      },
+      "name": "known_pass",
+      "ok": true
+    },
+    {
+      "classification": "candidate_completed_before_deadline",
+      "detail": {
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-29622ad27a204abf",
+        "error": "wrong answer",
+        "lifecycle_valid": true,
+        "marker_error": null,
+        "passed": false,
+        "stderr_head": "",
+        "stdout_head": "2\n",
+        "timed_out": false
+      },
+      "name": "wrong_answer",
+      "ok": true
+    },
+    {
+      "classification": "candidate_completed_before_deadline",
+      "detail": {
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-1c25e80d632042ec",
+        "error": "docker exit code 1",
+        "lifecycle_valid": true,
+        "marker_error": null,
+        "passed": false,
+        "stderr_head": "Traceback (most recent call last):\n  File \"/work/candidate.py\", line 1, in <module>\n    raise ValueError('boom')\nValueError: boom\n",
+        "stdout_head": "",
+        "timed_out": false
+      },
+      "name": "candidate_exception",
+      "ok": true
+    },
+    {
+      "classification": "candidate_running_at_deadline",
+      "detail": {
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-3447bbb97933457f",
+        "error": "timeout after 6s",
+        "lifecycle_valid": true,
+        "marker_error": null,
+        "passed": false,
+        "stderr_head": "",
+        "stdout_head": "",
+        "timed_out": true
+      },
+      "name": "deadline_sleep",
+      "ok": true
+    },
+    {
+      "classification": "candidate_completed_before_deadline",
+      "detail": {
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-0d93312a59a64e00",
+        "error": "wrong answer",
+        "lifecycle_valid": true,
+        "marker_error": null,
+        "passed": false,
+        "stderr_head": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+        "stdout_head": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "timed_out": false
+      },
+      "name": "stdout_stderr_spam",
+      "ok": true
+    },
+    {
+      "classification": "unresolved",
+      "detail": {
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-d0d62d9774dc4015",
+        "error": "untrusted lifecycle evidence: expected exactly one candidate_start marker, found 0",
+        "lifecycle_valid": false,
+        "marker_error": null,
+        "passed": false,
+        "stderr_head": "",
+        "stdout_head": "[[\"read-failed\", \"/evidence/nonce\", \"FileNotFoundError\"], [\"read\", \"/evidence/lifecycle.jsonl\", \"c3728c0615d045f4dc62eda4447be067ebfe3ba617a1132ce2f256010103bf5b {\\\"epoch\\\":179397\"], [\"list-evidence\", [\"lifecycle.jsonl\"]], [\"forged-append\", \"ok\"], [\"deleted-evidence\", \"ok\"], [\"parent\", \"python\\u0000",
+        "timed_out": false
+      },
+      "name": "evidence_nonce_parent_attack",
+      "ok": true
+    },
+    {
+      "classification": "unresolved",
+      "detail": {
+        "class": "unresolved",
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-selftest-31340-83666",
+        "container_status": null,
+        "container_terminated": true,
+        "exit_code": 2,
+        "late_completion": false,
+        "lifecycle_valid": false,
+        "marker_error": "no lifecycle evidence file",
+        "record_error": "no lifecycle evidence file"
+      },
+      "name": "injected_startup_failure",
+      "ok": true
+    },
+    {
+      "classification": "candidate_completed_before_deadline",
+      "detail": {
+        "class": "candidate_completed_before_deadline",
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-selftest-31340-84112",
+        "container_status": "running",
+        "container_terminated": true,
+        "exit_code": 1,
+        "late_completion": false,
+        "lifecycle_valid": true,
+        "marker_error": null,
+        "record_error": null
+      },
+      "name": "real_post_completion_delay",
+      "ok": true
+    },
+    {
+      "classification": "unresolved",
+      "detail": {
+        "class": "unresolved",
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-selftest-31340-90479",
+        "container_status": null,
+        "container_terminated": true,
+        "exit_code": 1,
+        "late_completion": false,
+        "lifecycle_valid": false,
+        "marker_error": "no trusted lifecycle evidence channel",
+        "record_error": "no trusted lifecycle evidence channel"
+      },
+      "name": "real_missing_markers",
+      "ok": true
+    },
+    {
+      "classification": "unresolved",
+      "detail": {
+        "class": "unresolved",
+        "cleanup_verified": true,
+        "container_name": "gemmaloop-selftest-31340-91004",
+        "container_status": null,
+        "container_terminated": true,
+        "exit_code": 0,
+        "late_completion": false,
+        "lifecycle_valid": false,
+        "marker_error": "lifecycle marker HMAC invalid at line 3",
+        "record_error": "lifecycle marker HMAC invalid at line 3"
+      },
+      "name": "real_altered_markers",
+      "ok": true
+    },
+    {
+      "classification": "unresolved",
+      "detail": {
+        "class": "unresolved",
+        "cleanup_verified": false,
+        "container_name": "gemmaloop-selftest-31340-91545",
+        "container_status": null,
+        "container_terminated": true,
+        "exit_code": 0,
+        "late_completion": false,
+        "lifecycle_valid": false,
+        "marker_error": null,
+        "record_error": "cleanup was not verified"
+      },
+      "name": "failed_cleanup",
+      "ok": true
+    },
+    {
+      "classification": "unresolved",
+      "detail": {
+        "attempt_statuses": [
+          "infrastructure_error",
+          "passed"
+        ],
+        "ledger": "C:\\Users\\<user>\\AppData\\Local\\Temp\\opencode\\synthetic_attempt_ledger.jsonl",
+        "recovery_checks": [
+          "daemon",
+          "noop_container"
+        ],
+        "recovery_ok": true,
+        "retry_lifecycle": "candidate_completed_before_deadline"
+      },
+      "name": "documented_recovery_and_single_retry",
+      "ok": true
+    },
+    {
+      "classification": "cleanup",
+      "detail": {
+        "containers": [
+          "gemmaloop-bbf0a743e3604623",
+          "gemmaloop-29622ad27a204abf",
+          "gemmaloop-1c25e80d632042ec",
+          "gemmaloop-3447bbb97933457f",
+          "gemmaloop-0d93312a59a64e00",
+          "gemmaloop-d0d62d9774dc4015",
+          "gemmaloop-selftest-31340-83666",
+          "gemmaloop-selftest-31340-84112",
+          "gemmaloop-selftest-31340-90479",
+          "gemmaloop-selftest-31340-91004",
+          "gemmaloop-selftest-31340-91545"
+        ],
+        "leaked": []
+      },
+      "name": "container_termination",
+      "ok": true
+    },
+    {
+      "classification": "cleanup",
+      "detail": {
+        "container": "gemmaloop-bbf0a743e3604623"
+      },
+      "name": "pass_container_terminated",
+      "ok": true
+    }
+  ],
+  "count_result": false,
+  "created_utc": "2026-11-06T13:20:04.334988+00:00",
+  "image": "python:3.12-slim",
+  "image_id": "sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54",
+  "kind": "pilot_shortfall_synthetic_validation_receipt",
+  "official": false,
+  "ok": true,
+  "receipt_sha256": "5be5b500478e1b9e67b24a95326a8fcadb4792f3364517ada27b7cda474793e7",
+  "repo_digests": [
+    "python@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54"
+  ],
+  "synthetic_only": true,
+  "timeout_s": 6.0,
+  "version": 1
+}
